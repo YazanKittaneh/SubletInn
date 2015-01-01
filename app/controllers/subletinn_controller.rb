@@ -15,4 +15,9 @@ end
 def houses
 end
 
+def page_switch
+  layout '/subletinn' + params[:id]
+end
+
+
 end
