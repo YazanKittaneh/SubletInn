@@ -13,6 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+
  #bg {
   position: fixed;
   top: -50%;
@@ -20,7 +22,7 @@
   width: 200%;
   height: 200%;
 }
-#bg img {
+.style_image {
   position: absolute;
   top: 0;
   left: 0;

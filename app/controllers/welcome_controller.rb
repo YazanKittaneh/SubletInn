@@ -1,12 +1,11 @@
 class WelcomeController < ActionController::Base
 
-def show
-  @welcome =
-end
+#def show
+#  @welcome =
+#end
 
 def index
   render :file => 'layouts/welcome.html.erb'
-  null
 end
 
 end
