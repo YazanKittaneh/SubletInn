@@ -1,6 +1,8 @@
 @import "bootstrap";
 
+
  #bg {
+
   position: fixed;
   top: -50%;
   left: -50%;
@@ -19,37 +21,41 @@
   min-height: 50%;
 }
 
-@font-face {
-    font-family: "sf";
-    src: asset-url(/assets/SanFrancisco.ttf) format("truetype");
-}
 
 
+div.container1 {
+    height: 10em;
+    position: relative; }
 
-.circle
-{
-width:500px;
-height:500px;
-border-radius:50%;
-font-size:50px;
-color:#fff;
-line-height:500px;
-text-align:center;
-background:#000
-}
+div.container1 .circle {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    width:500px;
+    height:500px;
+  border-radius:50%;
+  font-size:50px;
+  color:#fff;
+  line-height:500px;
+  text-align:center;
+  background:#000;
+    }
 
 p {
-    font-family: 'sf';
+    font-family: 'tahoma';
     color: #F00;
 }
 
 #logo {
-  font-family: 'sf';
 
 }
 
 #sublogo {
-  font-family: 'sf';
 
 }
 
