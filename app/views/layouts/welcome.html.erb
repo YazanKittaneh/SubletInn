@@ -1,41 +1,25 @@
 <!DOCTYPE html>
 <html>
-<%= stylesheet_link_tag "application" %>
-<!-- <link rel="stylesheet" type="text/css" href="application.css"/> -->
-<head>
-  <title>SubletInn</title>
 
-  <!-- Background Image-->
-  <div id="bg"><%= image_tag("http://s3.amazonaws.com/subletinn/background.jpg", :class => "style_image") %></div>
+  <%= stylesheet_link_tag "application" %>
 
-</head>
+  <head>
+    <title>SubletInn</title>
+    <div id="bg"><%= image_tag("http://s3.amazonaws.com/subletinn/background.jpg", :class => "style_image") %></div>
+  </head>
 
-<style>
-section {
-  background:black;
-  color: white;
-  border-radius:lem;
-  padding: lem;
-  position: absolute;
-  top : 50%;
-  left:50%;
-  margin-right: -50%;
-  transform: translate(-50%,-50%)
-}
-</style>
 
   <body>
 
     <div style="position:relative;">
-      <div id="circle" style="position:absolute;left:50%;margin-left:-250px;top:50%;margin-top:10%;width:500px;height:500px;" >  </div>
+      <div id="circle" style="position:absolute;left:50%;margin-left:-250px;top:50%;margin-top:10%;width:500px;height:500px;" >
+        <div id="center_text">
+          <p id="logo">SUBLETINN</p>
+          <p id="sublogo">Join a community</p>
+          <p id="coming_soon">Coming Soon</p>
+        </div>
       </div>
     </div>
-    <section>
-      <p id="logo">SUBLETINN</p>
 
-      <p id="sublogo">Join a community</p>
-
-      <p id="coming_soon">Coming Soon</p>
-    </section>
   </body>
 </html>

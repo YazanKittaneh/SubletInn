@@ -1,4 +1,3 @@
-@import "bootstrap";
 
 
  #bg {
@@ -30,11 +29,17 @@
   height:500px;
   border-radius:50%;
   background:#EB3141;
-  color: #EB3141;
   box-shadow: 2px 2px 2px #000;
+  text-align:center;
   }
 
-  p {
-    background-color: #EB3141;
-    font-family: 'HelveticaNeue-Ultralight'
-  }
+
+
+#center_text {
+  margin-top: 40%;
+}
+
+#logo {
+  font-family: 'HelveticaNeue-Ultralight';
+  font-size: 3em;
+}
