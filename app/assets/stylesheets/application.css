@@ -10,6 +10,7 @@
   height: 200%;
 }
 
+
 .style_image {
   position: absolute;
   top: 0;
@@ -23,41 +24,17 @@
 
 
 
-div.container1 {
-    height: 10em;
-    position: relative; }
 
-div.container1 .circle {
-    margin: 0;
-    background: yellow;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-
-    width:500px;
-    height:500px;
+#circle{
+  width:500px;
+  height:500px;
   border-radius:50%;
-  font-size:50px;
-  color:#fff;
-  line-height:500px;
-  text-align:center;
-  background:#000;
-    }
+  background:#EB3141;
+  color: #EB3141;
+  box-shadow: 2px 2px 2px #000;
+  }
 
-p {
-    font-family: 'tahoma';
-    color: #F00;
-}
-
-#logo {
-
-}
-
-#sublogo {
-
-}
-
-#coming_soon {
-}
+  p {
+    background-color: #EB3141;
+    font-family: 'HelveticaNeue-Ultralight'
+  }

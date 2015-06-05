@@ -1,0 +1,62 @@
+@import "bootstrap";
+
+@font-face {
+  font-family:'San Francisco';
+  src:url(asset-path('fonts/SanFrancisco2.ttf'));
+  src:url(asset-path('fonts/SanFrancisco2.ttf?#iefix')) format('truetype');
+}
+
+
+ #bg {
+
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+.style_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+
+
+
+
+.circle
+{
+width:500px;
+height:500px;
+border-radius:50%;
+font-size:50px;
+color:#fff;
+line-height:500px;
+text-align:center;
+background:#000
+}
+
+p {
+    font-family: 'sf';
+    color: #F00;
+}
+
+#logo {
+  font-family: 'sf';
+
+}
+
+#sublogo {
+  font-family: 'sf';
+
+}
+
+#coming_soon {
+}
