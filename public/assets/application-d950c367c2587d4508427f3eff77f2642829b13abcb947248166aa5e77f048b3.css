@@ -36,27 +36,10 @@
 
 
 #center_text {
-  margin-top: 20%;
+  margin-top: 40%;
 }
 
-.logo {
-  width: 70%;
-  height: auto;
-}
-
-
-.sublogo {
-  position: relative;
-  top: 0;
-  left: 0;
-  height: auto;
-  width: 50%;
-  padding-right: 10%;
-  padding-top: 10%;
-}
-
-.lines {
-  position: absolute;
-  top: 47%;
-  left: 28%;
+#logo {
+  font-family: 'HelveticaNeue-Ultralight';
+  font-size: 3em;
 }

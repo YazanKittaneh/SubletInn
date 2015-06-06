@@ -1,6 +1,4 @@
-(function($){
-
-  $(document).ready(function() {
+$(document).ready(function() {
 
       $("#owl-demo").owlCarousel({
         autoPlay : 3000,
@@ -11,8 +9,6 @@
         singleItem : true,
         autoHeight : true,
         transitionStyle:"fade"
-        simpleItem: true;
       });
 
-  });
-})(jQuery);
+});
