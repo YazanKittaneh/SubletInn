@@ -50,6 +50,6 @@ group :development, :test do
   gem "autoprefixer-rails"
 
   # Use postgresql as the database for Active Record
-  gem 'pg'
+  gem 'pg', '~> 0.18.2'
 
 end
