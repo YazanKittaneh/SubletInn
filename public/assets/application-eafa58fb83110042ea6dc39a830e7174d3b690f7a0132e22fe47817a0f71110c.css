@@ -1,0 +1,60 @@
+ #bg {
+
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+
+.style_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+
+
+
+#circle{
+  width:500px;
+  height:500px;
+  border-radius:50%;
+  background:#EB3141;
+  box-shadow: 2px 2px 2px #000;
+  text-align:center;
+  }
+
+
+
+#center_text {
+  margin-top: 20%;
+}
+
+.logo {
+  width: 70%;
+  height: auto;
+}
+
+
+.sublogo {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 50%;
+  padding-right: 10%;
+  padding-top: 10%;
+}
+
+.lines {
+  position: absolute;
+  top: 30%;
+  left: 28%;
+}
