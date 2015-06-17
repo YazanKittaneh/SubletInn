@@ -1,40 +1,25 @@
 <! DOCTYPE html>
-<html>
+<html lang="en">
+<head>
 <%= stylesheet_link_tag "francis" %>
+<meta charset="UTF-8">
+<title>Example of Bootstrap 3 Static Navbar</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style type="text/css">
+    .bs-example{
+    	margin: 20px;
+    }
+</style>
+</head>
 <head>
 <title> Francis : A community for young hip professionals</title>
 </head>
 
 <body>
-
-<section>
-
-<h1 style = "position: absolute; top: -5; left: -15;">
-<a href = "francis.subletinn.com"><%= image_tag("https://s3.amazonaws.com/subletinn/francis+logo.png", :class => "francis") %></a>
-</h1>
-
-<h3 style = "position: absolute; top: 35; left: 330;font-family: Helvetica; font-size: 20px; color: 260F96;">
-  community
-</h3>
-<h3 style = "position: absolute; top: 35; left: 530;font-family: Helvetica; font-size: 20px; color: 260F96;">
-  local-sights
-</h3>
-
-<h3 style = "position: absolute; top: 35; left: 730;font-family: Helvetica; font-size: 20px; color: 260F96;">
-  franciscans
-</h3>
-
-<h3 style = "position: absolute; top: 35; left: 930;font-family: Helvetica; font-size: 20px; color: 260F96;">
-  faq
-</h3>
-
-<div style = "position: relative; left: 1080; top: 30; width: 50%;" id = "GPS">
-<a href = "https://www.google.com/maps/place/2748+W+Francis+Pl,+Chicago,+IL+60647/@41.9186369,-87.696017,17z/data=!4m2!3m1!1s0x880fd29fb400912b:0x423a5ebd859f990e"><%= image_tag("https://s3.amazonaws.com/subletinn/gps.jpg", :class => "gps") %></a>
-</div>
-</section>
-
-<div style = "margin-top: 3.5%; height: 50%;" id = "WICKER">
-<%= image_tag("https://s3.amazonaws.com/subletinn/background.jpg", :class => "wicker") %>
-</div>
+  <%= render 'layouts/navigation' %>
 </body>
+
 </html>
