@@ -26,7 +26,7 @@
    color: #ecf0f1;
  }
  .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-   color: #ffbbbc;
+   color: #ED6A40;
  }
  .navbar-default .navbar-text {
    color: #ecf0f1;
@@ -45,18 +45,18 @@
  }
  .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
  .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-   color: #ffbbbc;
+   color: #ED6A40;
    background-color: #c51c0b;
  }
  .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
    background-color: #df3c0e;
  }
  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-   color: #ffbbbc;
+   color: #ED6A40;
    background-color: #c51c0b;
  }
  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-   color: #ffbbbc;
+   color: #ED6A40;
    background-color: #c51c0b;
  }
  .navbar-default .navbar-toggle {
@@ -76,7 +76,7 @@
    color: #ecf0f1;
  }
  .navbar-default .navbar-link:hover {
-   color: #ffbbbc;
+   color: #ED6A40;
  }
 
  @media (max-width: 767px) {
@@ -84,10 +84,10 @@
      color: #ecf0f1;
    }
    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-     color: #ffbbbc;
+     color: #ED6A40;
    }
    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-     color: #ffbbbc;
+     color: #ED6A40;
      background-color: #c51c0b;
    }
 
@@ -109,6 +109,83 @@
    font-family: Batang;
    color: white;
    text-align: center;
-   padding: 8%;
-   text-shadow: 1px 2px 5px #978D8A;
+   margin-top: 12%;
+   text-shadow:1px 2px 5px #978D8A;
  }
+
+ #content h2 {
+   text-align: center;
+   font-family: Batang;
+   color: #ED6A40;
+   margin-top: 10%;
+ }
+
+#content h4 {
+  text-align: center;
+  font-family: Batang;
+  color: #A17F74;
+  margin-top: 3%;
+  line-height: 150%;
+}
+
+#happyface img {
+  width: 47%;
+  height: auto;
+}
+
+#gps img {
+  width: 33%;
+  height: auto;
+}
+
+#houseicon img {
+  width: 55%;
+  height: auto;
+}
+
+.row.row-custom {
+  margin-top: 5%;
+}
+
+#houseicon h3 {
+  font-family: Batang;
+  color: #ED6A40;
+  text-align: center;
+}
+
+#houseicon h5 {
+  font-family: Batang;
+  color: #A17F74;
+  text-align: center;
+  line-height: 150%;
+  margin-top: 3%;
+}
+
+#happyface h3 {
+  font-family: Batang;
+  color: #ED6A40;
+  text-align: center;
+}
+
+#happyface h5 {
+  font-family: Batang;
+  color: #A17F74;
+  text-align: center;
+  line-height: 150%;
+  margin-top: 3%;
+}
+
+
+#gps h3 {
+  font-family: Batang;
+  color: #ED6A40;
+  text-align: center;
+}
+
+#gps h5 {
+  font-family: Batang;
+  color: #A17F74;
+  text-align: center;
+  line-height: 150%;
+  margin-top: 3%;
+}
