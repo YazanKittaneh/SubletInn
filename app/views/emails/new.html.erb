@@ -1,0 +1,17 @@
+<%= stylesheet_link_tag "emails" %>
+
+
+<div id="images" style="position: relative; left: 0; top: 0;">
+  <%= image_tag("http://s3.amazonaws.com/subletinn/discover.png", :class => "sublogo") %>
+  <%= image_tag("http://s3.amazonaws.com/subletinn/lines.png", :class => "lines") %>
+</div>
+
+
+<div id="form">
+  <%= form_for @email do |f| %>
+  <div id = "rectangle">
+    <%= f.text_field :address %>
+  </div>
+    <%= f.submit %>
+  <% end -%>
+</div>
