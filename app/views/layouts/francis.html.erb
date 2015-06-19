@@ -1,66 +1,16 @@
-<! DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-<%= stylesheet_link_tag "francis" %>
-<meta charset="UTF-8">
-<title>Francis: a place for young Chicago professionals to call home</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<style type="text/css">
-    .bs-example{
-    	margin: 20px;
-    }
-</style>
-</head>
-<head>
-<title> Francis : A community for young hip professionals</title>
+  <title>Francis: A hub for young professionals</title>
+  <%= stylesheet_link_tag "francis" %>
+  <!-- JavaScript -->
+  <%= javascript_include_tag('application') %>
 </head>
 
 <body>
-  <%= render 'layouts/navigation' %>
-  <div class="jumbotron" style = "background-image: https://s3.amazonaws.com/subletinn/house.jpg">
-      <div id = "cover" class="container">
-        <h1> explore your chicago </h1>
-          <a href = "#carrot">
-        <img class = "img-responsive" src = "https://s3.amazonaws.com/subletinn/down.png">
-          </a>
-      </div>
-  </div>
-  
-
-
-<div id = "content">
-  <h2>live at Francis + join a community</h2>
-  <h4> Francis is home to young professionals who are interning or working in Chicago.
- <br />Network and form friendships while enjoying what the heart of Logan Square has to offer.</h4>
-</div>
-
-<a name = "carrot">
-<div class = "container">
-  <div class = "row row-custom">
-    <div class = "col-xs-4" id = "houseicon">
-      <img src="https://s3.amazonaws.com/subletinn/houseicon.png" class="center-block img-responsive">
-      <h3> be independent </h3>
-      <h5> Spaces in Francis are rented as singles. <br/> Customize your room to be as unique you are. </h5>
-  </div>
-    <div class = "col-xs-4" id = "happyface">
-      <img src="https://s3.amazonaws.com/subletinn/happyface.png" class="center-block img-responsive">
-      <h3> find your tribe</h3>
-      <h5> You'll meet people working for places from Twitter to FB. <br/> Branch out professionally and personally.</h5>
-    </div>
-    <div class = "col-xs-4" id = "gps">
-      <img src="https://s3.amazonaws.com/subletinn/gpsbeige.png" class="center-block img-responsive">
-      <h3> discover chicago </h3>
-      <h5> Francis is located in the bustling neighborhood of Logan Square. <br/> Find your favorite places to be.</h5>
-    </div>
-  </div>
-</div>
-</a>
+  <%= render 'layouts/partials/navigation' %>
+  <%= yield %>
 </body>
-
-
-
 
 </html>
