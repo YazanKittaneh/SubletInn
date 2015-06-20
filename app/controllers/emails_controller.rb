@@ -1,7 +1,8 @@
 class EmailsController < ApplicationController
 
   def new
-    @email = Email.new
+    super
+    @email = Emails.new
   end
 
   def create

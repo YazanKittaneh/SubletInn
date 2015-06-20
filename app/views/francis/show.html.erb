@@ -2,9 +2,11 @@
   <div class="jumbotron" style = "background-image: https://s3.amazonaws.com/subletinn/house.jpg">
       <div id = "cover" class="container">
         <h1> explore your chicago </h1>
-          <a href = "#carrot">
-        <img class = "img-responsive" src = "https://s3.amazonaws.com/subletinn/down.png">
-          </a>
+        <%= render 'emails/email', email: @email %>
+        </form>
+        <a href = "#carrot">
+          <img class = "img-responsive" src = "https://s3.amazonaws.com/subletinn/down.png">
+        </a>
       </div>
   </div>
 
@@ -15,6 +17,7 @@
     <h4> Francis is home to young professionals who are interning or working in Chicago.
       <br />Network and form friendships while enjoying what the heart of Logan Square has to offer.</h4>
   </div>
+
 
   <a name = "carrot">
     <div class = "container">
