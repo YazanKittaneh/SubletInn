@@ -55,7 +55,6 @@ group :development, :test do
 
   gem 'bootstrap-sass'
 
-  gem 'autoprefixer-rails'
-
+  gem 'bootstrap_form'
 
 end

@@ -1,15 +1,17 @@
 class EmailsController < ApplicationController
 
   def new
-    super
-    @email = Emails.new
+    @email = Email.new
   end
 
   def create
-    #@email = Email.new(params.require(:email).permit(:address))
-    #if @email.save
-    #  redirect_to action: 'thank_you'
-    #end
+    @email = Email.new(params.require(:email).permit(:address))
+    if @email.save
+      flash[:success] = "Thanks! I'll be in touch soon!"
+      redirect_to :back
+    else
+      render :back
+    end
   end
 
   def show
