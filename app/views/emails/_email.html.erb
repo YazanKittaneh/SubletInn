@@ -1,4 +1,4 @@
-<%= bootstrap_form_for @email ||= Email.new  do |f| %>
-  <%= f.text_field :address %>
-  <%= f.submit %>
+<%= bootstrap_form_for(@email ||= Email.new, layout: :inline) do |f| %>
+  <%= f.text_field :address, hide_label: true, placeholder: "Enter Email!", icon: "user" %>
+  <%= f.submit "Sumbit", class: "btn btn-danger btn-md" %>
 <% end -%>
