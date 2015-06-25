@@ -2,98 +2,7 @@
 @import "bootstrap";
 
 
-#francis {
-  width: 30%;
-  height: auto;
-}
-
-.nav li {
-  font-family: Batang;
-}
-
- .navbar-default {
-   background-color: #df3c0e;
-   border-color: #df3c0e;
-   background-image: none;
-   background-repeat: no-repeat;
- }
- .navbar-default .navbar-brand {
-   color: #ecf0f1;
- }
- .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-   color: #ED6A40;
- }
- .navbar-default .navbar-text {
-   color: #ecf0f1;
- }
- .navbar-default .navbar-nav > li > a {
-   color: #ecf0f1;
- }
- .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-   color: #ffbbbc;
- }
- .navbar-default .navbar-nav > li > .dropdown-menu {
-   background-color: #df3c0e;
- }
- .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-   color: #ecf0f1;
- }
- .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
- .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-   color: #ED6A40;
-   background-color: #c51c0b;
- }
- .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
-   background-color: #df3c0e;
- }
- .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-   color: #ED6A40;
-   background-color: #c51c0b;
- }
- .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-   color: #ED6A40;
-   background-color: #c51c0b;
- }
- .navbar-default .navbar-toggle {
-   border-color: #c51c0b;
- }
- .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-   background-color: #c51c0b;
- }
- .navbar-default .navbar-toggle .icon-bar {
-   background-color: #ecf0f1;
- }
- .navbar-default .navbar-collapse,
- .navbar-default .navbar-form {
-   border-color: #ecf0f1;
- }
- .navbar-default .navbar-link {
-   color: #ecf0f1;
- }
- .navbar-default .navbar-link:hover {
-   color: #ED6A40;
- }
-
- @media (max-width: 767px) {
-   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-     color: #ecf0f1;
-   }
-   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-     color: #ED6A40;
-   }
-   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-     color: #ED6A40;
-     background-color: #c51c0b;
-   }
-
- }
-
-.navbar {
-  margin-bottom: 0px;
-  border-radius: 0px;
-}
-
- .jumbotron {
+ .top-header {
  background-image: url("https://s3.amazonaws.com/subletinn/house.jpg");
  background-size: cover;
  width:100%;
@@ -110,9 +19,10 @@
 
 #cover img {
   width: 5%;
-  height: auto;
+  height: 100%;
   margin-left: 47%;
   margin-top: 25%;
+  margin-bottom: 5%;
 }
 
 #email_form {
@@ -125,14 +35,12 @@
    text-align: center;
    font-family: Batang;
    color: #ED6A40;
-   margin-top: 10%;
  }
 
 #content h4 {
   text-align: center;
   font-family: Batang;
   color: #A17F74;
-  margin-top: 3%;
   line-height: 150%;
 }
 
@@ -151,31 +59,16 @@
   height: auto;
 }
 
-.row.row-custom {
-  margin-top: 5%;
+.row-custom {
 }
 
-#houseicon h3 {
+.h3-heading{
   font-family: Batang;
   color: #ED6A40;
   text-align: center;
 }
 
-#houseicon h5 {
-  font-family: Batang;
-  color: #A17F74;
-  text-align: center;
-  line-height: 150%;
-  margin-top: 3%;
-}
-
-#happyface h3 {
-  font-family: Batang;
-  color: #ED6A40;
-  text-align: center;
-}
-
-#happyface h5 {
+.h5-heading {
   font-family: Batang;
   color: #A17F74;
   text-align: center;
@@ -184,16 +77,7 @@
 }
 
 
-#gps h3 {
-  font-family: Batang;
-  color: #ED6A40;
-  text-align: center;
-}
 
-#gps h5 {
-  font-family: Batang;
-  color: #A17F74;
-  text-align: center;
-  line-height: 150%;
-  margin-top: 3%;
+.form {
+  padding-top: 60px;
 }

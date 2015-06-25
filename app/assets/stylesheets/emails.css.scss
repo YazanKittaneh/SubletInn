@@ -2,9 +2,21 @@
 @import "bootstrap";
 
 #new_email {
-  max-width: 70%;
+  max-width: 100%;
 }
 
-.new_email .btn-danger {
-  background-color: #df3c0e;
+.my-text-field {
+    border-radius:0;
+}
+
+.my-btn{
+  background: #8DBA24;
+  border-color: #8DBA24;
+  border-radius:0;
+}
+
+.my-btn:hover {
+  border-color: #78AA05;
+  background-color: #78AA05;
+  border-radius:0;
 }
