@@ -73,7 +73,7 @@
    color: #ED6A40;
  }
 
- @media (max-width: 767px) {
+ @media (max-width: auto) {
    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
      color: #ecf0f1;
    }
@@ -91,4 +91,9 @@
   margin-bottom: 0px;
   border-radius: 0px;
   border-color: transparent;
+}
+
+.icon-bar {
+  border-color: #ED6A40;
+  background-color: #ED6A40;
 }
