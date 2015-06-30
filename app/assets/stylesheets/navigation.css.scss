@@ -100,17 +100,38 @@
 @media (min-width: 0px) {
   .navbar-fixed-top {
     margin: 0;
-    width: 50px;
+  }
+}
+
+.vert-menu{
+  margin-top: 10%;
+  width: 80px;
+  box-shadow: none;
+}
+
+
+.nav-pills > li > a:hover {
+    background-color: transparent;
   }
 
-
-}
 .nav-pills > li.active > a {
-  background-color: #df3c0e;
+
 }
 
 
 .menu-item {
-  padding-top: 50px;
+  padding-top: 30%;
 
+}
+
+
+#home {
+  width: 240%;
+  padding: 0px 0px 0px 0px;
+}
+
+.collapse-button {
+  margin-right: 90%;
+  margin-top: 10px;
+  background-color: red;
 }
