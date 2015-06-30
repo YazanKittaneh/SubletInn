@@ -1,4 +1,4 @@
-
+/*
 #francis {
   width: 30%;
   height: auto;
@@ -10,10 +10,9 @@
 
  .navbar-default {
    background: transparent;
-   /*
    background-color: #df3c0e;
    border-color: #df3c0e;
-   */
+
    background-image: none;
    background-repeat: no-repeat;
  }
@@ -96,4 +95,22 @@
 .icon-bar {
   border-color: #ED6A40;
   background-color: #ED6A40;
+}
+*/
+@media (min-width: 0px) {
+  .navbar-fixed-top {
+    margin: 0;
+    width: 50px;
+  }
+
+
+}
+.nav-pills > li.active > a {
+  background-color: #df3c0e;
+}
+
+
+.menu-item {
+  padding-top: 50px;
+
 }
