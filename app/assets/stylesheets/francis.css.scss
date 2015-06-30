@@ -2,18 +2,21 @@
 @import "bootstrap";
 
 html,body {height:100%; width: 100%;
-margin-bottom: 0px;
+margin: 0px;
+padding: 0;
 }
 .special,.special .jumbotron {
   height:100%;
   width: 100%;
   border-radius: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
+  padding: 0;
 }
 
 .special {
   width: auto;
-  margin-bottom: 0px;
+  margin: 0px;
+  padding: 0;
 
 }
 
@@ -23,11 +26,21 @@ margin-bottom: 0px;
  height: 100%;
  width: auto;
  border-radius: 0;
- margin-bottom: 0px;
+ margin: 0px;
+ padding: 0;
 
 
  }
 
+ .top-header2 {
+ background-size: cover;
+ height: 100%;
+ width: auto;
+ border-radius: 0;
+ padding: 0;
+
+
+ }
 #cover img {
   height: 100%;
 }
@@ -43,4 +56,48 @@ margin-bottom: 0px;
   color: #fff;
   margin-top: 12%;
   text-align: center;
+}
+
+#intro1 {
+  padding-left: 15%;
+}
+
+#introhead2 {
+  font-family: HelveticaNeue;
+  line-height: 150%;
+}
+
+#headercolor {
+  font-family:HelveticaNeue;
+  color:#FB5641;
+  padding-left: 40%;
+  padding-top: 3%;
+}
+
+#headerbw{
+  font-family:HelveticaNeue;
+  text-align: center;
+  padding-right: 7%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+
+}
+
+#house {
+  width: 3%;
+  height: auto;
+}
+
+#househeadercolor {
+  font-family:HelveticaNeue;
+  color:#FB5641;
+  text-align: center;
+}
+
+#househeaderbw {
+  font-family:HelveticaNeue;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  line-height: 150%;
 }
