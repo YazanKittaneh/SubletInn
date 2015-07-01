@@ -128,10 +128,25 @@
 #home {
   width: 240%;
   padding: 0px 0px 0px 0px;
+
 }
+
+#square {
+  width: 50px;
+  height: 50px;
+  background: #FB5641;
+  border-radius: 25%;
+
+  img {
+    width: 60%;
+    margin-top: 5px;
+  }
+
+  }
+
+
 
 .collapse-button {
   margin-right: 90%;
   margin-top: 10px;
-  background-color: red;
 }
