@@ -1,5 +1,8 @@
 class EmailsController < ApplicationController
 
+
+  require 'pg'
+
   def new
     @email = Email.new
   end
@@ -12,6 +15,13 @@ class EmailsController < ApplicationController
     else
       render :back
     end
+
+
+
+
+    conn = PGconn.connect("ip adddress", 5432, '', '', "db name", "user", "password")
+    res  = conn.exec('select tablename, tableowner from pg_tables')
+
   end
 
   def show

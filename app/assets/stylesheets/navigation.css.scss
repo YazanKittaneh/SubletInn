@@ -100,12 +100,13 @@
 @media (min-width: 0px) {
   .navbar-fixed-top {
     margin: 0;
+    margin-left: -10px;
   }
 }
 
 .vert-menu{
   margin-top: 10%;
-  width: 80px;
+  width: 90px;
   box-shadow: none;
 }
 
@@ -126,7 +127,7 @@
 
 
 #home {
-  width: 240%;
+  width: 200%;
   padding: 0px 0px 0px 0px;
 
 }
@@ -145,8 +146,17 @@
   }
 
 
-
 .collapse-button {
-  margin-right: 90%;
+  margin-right: 80%;
   margin-top: 10px;
+}
+
+#toggle {
+  margin-right: 24px;
+  width: 50%;
+}
+
+#francis {
+  margin-top: 30px;
+  width: 30%;
 }
