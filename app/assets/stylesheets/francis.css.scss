@@ -24,7 +24,7 @@ padding: 0;
  background-image: url("https://s3.amazonaws.com/subletinn/Photos/concert.jpg");
  background-size: cover;
  height: 100%;
- width: auto;
+ width: 100%;
  border-radius: 0;
  margin: 0px;
  padding: 0;
@@ -91,7 +91,12 @@ padding: 0;
 #househeadercolor {
   font-family:HelveticaNeue;
   color:#FB5641;
-  text-align: center;
+}
+
+#househeadercolor2 {
+  font-family:HelveticaNeue;
+  color:#FB5641;
+  padding-left: 30%;
 }
 
 #househeaderbw {
@@ -102,9 +107,28 @@ padding: 0;
   line-height: 150%;
 }
 
+#househeaderbw2 {
+  font-family:HelveticaNeue;
+  text-align: center;
+  line-height: 150%;
+}
 .square {
-  margin-left: 90%;
+  margin-left: 85%;
   padding-bottom: 15%;
   width: 60%;
   height: auto;
+}
+
+.square2 {
+  margin-left: 25%;
+  padding-bottom: 15%;
+  margin-top: 25%;
+  width: 110%;
+  height: auto;
+}
+
+
+#placesheader{
+  font-family: HelveticaNeue;
+  text-align: center;
 }
