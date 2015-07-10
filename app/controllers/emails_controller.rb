@@ -10,17 +10,12 @@ class EmailsController < ApplicationController
   def create
     @email = Email.new(params.require(:email).permit(:address))
     if @email.save
+      EmailMailer.send_signup_email(@email).deliver
       flash[:success] = "Thanks! I'll be in touch soon!"
       redirect_to :back
     else
       render :back
     end
-
-
-
-
-    conn = PGconn.connect("ip adddress", 5432, '', '', "db name", "user", "password")
-    res  = conn.exec('select tablename, tableowner from pg_tables')
 
   end
 
