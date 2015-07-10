@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/*** SETUP ***/
 html,body {height:100%; width: 100%;
 margin: 0px;
 padding: 0;
@@ -11,16 +12,21 @@ padding: 0;
   border-radius: 0px;
   margin: 0px;
   padding: 0;
+  margin-bottom: 0px;
 }
 
 .special {
   width: auto;
   margin: 0px;
   padding: 0;
+  margin-bottom: 0px;
 
 }
+/*** SETUP ***/
 
- .top-header {
+
+/*** Page Styles ***/
+ .HomePageOne {
  background-image: url("https://s3.amazonaws.com/subletinn/Photos/concert.jpg");
  background-size: cover;
  height: 100%;
@@ -28,37 +34,55 @@ padding: 0;
  border-radius: 0;
  margin: 0px;
  padding: 0;
-
+ margin-bottom: 0px;
 
  }
 
- .top-header2 {
+.carsosel-header{
+  background-image: url("https://s3.amazonaws.com/subletinn/Photos/concert.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  margin: 0px;
+  padding: 0;
+  margin-bottom: 0px;
+}
+
+ .white-header {
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+   border-radius: 0;
+   margin: 0px;
+   padding: 0;
+   background-color: white;
+
+ }
+
+ .ApplyPage {
+ background-image: url("https://s3.amazonaws.com/subletinn/Photos/concert.jpg");
  background-size: cover;
  height: 100%;
- width: auto;
+ width: 100%;
  border-radius: 0;
+ margin: 0px;
  padding: 0;
-
+ margin-bottom: 0px;
 
  }
-#cover img {
-  height: 100%;
-}
+/*** Page Styles ***/
 
 
-#lc-block {
-  color: #fff;
-  text-align: center;
-  text-shadow:1px 2px 5px #978D8A;
-}
-
-#heading-text{
-  color: #fff;
+/*** HomePage ***/
+#HomePageOneMainText{
   margin-top: 12%;
   text-align: center;
+  text-shadow:1px 2px 5px #978D8A;
+  color: #fff;
 }
 
-#intro1 {
+#HomePageTwo-leftcol {
   padding-left: 15%;
 }
 
@@ -80,7 +104,6 @@ padding: 0;
   padding-right: 7%;
   padding-top: 5%;
   padding-bottom: 10%;
-
 }
 
 #house {
@@ -111,7 +134,12 @@ padding: 0;
   font-family:HelveticaNeue;
   text-align: center;
   line-height: 150%;
-}
+  }
+
+/*** HomePage ***/
+
+
+/*** LocalPage ***/
 .square {
   margin-left: 85%;
   padding-bottom: 15%;
@@ -127,8 +155,22 @@ padding: 0;
   height: auto;
 }
 
-
 #placesheader{
   font-family: HelveticaNeue;
   text-align: center;
 }
+/*** LocalPage ***/
+
+
+
+/*** ApplyPage ***/
+.form {
+  margin-top: 10%;
+}
+#ApplyPageMainText{
+  margin-top: 12%;
+  text-align: center;
+  text-shadow:1px 2px 5px #978D8A;
+  color: #fff;
+}
+/*** ApplyPage ***/

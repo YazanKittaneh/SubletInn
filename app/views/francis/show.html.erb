@@ -1,21 +1,17 @@
 
-    <div class="jumbotron top-header ">
+<!-- HomePageOne -->
+    <div class="jumbotron top-header HomePageOne">
       <div id = "cover" class="container special">
         <!-- heading -->
-            <h1 id="heading-text"> live the logan square <br> life</h1>
+            <h1 id="HomePageOneMainText"> live in the heart of <br>Logan Square</h1>
 
-            <p id="lc-block">
-              Francis isn’t just a place to live, its a place to thrive. Live independently in the city with the company of your housemates, while having access to the best of chicago.
-            </p>
-            <div class="form">
-              <%= render 'emails/email', email: @email %>
-            </div>
         </div>
   </div>
 
-  <div class = "jumbotron" style = "background-color: white">
+<!-- HomePageTwo-->
+  <div class = "jumbotron white-header HomePageTwo" style = "background-color: white">
     <div id = "cover" class = "container special">
-      <div id = "intro1" class = "col-xs-7">
+      <div id = "HomePageTwo-leftcol" class = "col-xs-7">
           <div class = "row">
             <h2 style = "font-family:HelveticaNeue-Bold;">francis is more than just a swanky house. when you put interesting & funny & sarcastic people together in one of the coolest neighborhoods in chicago, it’s bound to be memorable.</h2>
             <h4 id = "introhead2" style = "padding-top: 5%;">another community created by subletinn, francis is the hotspot for young chicago professionals who want to live with who work and play just as hard as they do. </h4>
@@ -40,10 +36,10 @@
     </div>
   </div>
 
-  <div class = "jumbotron">
+<!-- HomePageThree-->
+  <div class = "jumbotron carsosel-header HomePageThree">
     <div id = "cover" class = "container special">
         <center><img id = "house" src = "https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear+house.png"></center>
-          <div class = "jumbotron"> </div>
           <div class = "col-xs-6">
             <div class = "row">
               <h3 id = "househeadercolor2" > francis has a total of 3 floors</h3>
@@ -59,7 +55,8 @@
       </div>
     </div>
 
-    <div class = "jumbotron">
+<!-- HomePageFour-->
+    <div class = "jumbotron white-header HomePageFour" style = "background-color: white">
       <div id = "cover" class = "container special">
         <div class="col-md-3 col-sm-4 col-xs-6">
           <img class = "square" src="http://placehold.it/250x250" alt="Image" class="img-responsive">
@@ -72,9 +69,11 @@
           <h4 id = "househeaderbw2" style = "padding-left: 45%; padding-top: 5%;"> even though we all live together, everyone gets their own single. yeah, there’s no college roommate deal going on here. everyone gets their own private space to just unwind after a long day of work.</h4>
           <h4 id = "househeaderbw2" style = "padding-left: 45%; padding-top: 5%;"> even though we all live together, everyone gets their own single. yeah, there’s no college roommate deal going on here. everyone gets their own private space to just unwind after a long day of work.</h4>
         </div>
+      </div>
     </div>
 
-    <div class = "jumbotron">
+<!-- LocalPageOne-->
+    <div class = "jumbotron white-header LocalPageOne" style = "background-color: white">
       <div id = "cover" class = "container special">
         <div class = "col-xs-10 col-xs-offset-1">
           <h2 id = "placesheader"> there are so many places in the neighborhood to munch, sip, watch, shop, and dance that it’ll make your head spin. here are a few of our favorites. </h2>
@@ -102,87 +101,142 @@
         </div>
       </div>
 
-      <div class = "jumbotron">
+<!-- PeoplePageOne-->
+      <div class = "jumbotron white-header PeoplePageOne" style = "background-color: white">
         <div id = "cover" class = "container special">
             <center><img id = "house" src = "https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear+people.png"></center>
-            <div class = "col-xs-12">
+
             <script src="http://cdn.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
             <script src="http://cdn.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
             <script src="http://cdn.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
-            <div id="mapdiv" style="width: 1000px; height: 450px;"></div>
-              <div style="width: 2000px;font-size: 70%; padding: 5px 0; text-align: center; background-color: #FFFFFF; margin-top: 1px; color: #FFFFFF;"><a href="http://www.amcharts.com/visited_countries/" style="color: #FFFFFF;">Create your own visited countries map</a> or check out the <a href="http://www.amcharts.com/" style="color: #FFFFFF;">JavaScript Charts</a>.</div>
-                <script type="text/javascript">
-                var map = AmCharts.makeChart("mapdiv",{
-                  type: "map",
-                  theme: "dark",
-                  pathToImages : "http://cdn.amcharts.com/lib/3/images/",
-                  panEventsEnabled : true,
-                  backgroundColor : "#FFFFFF",
-                  backgroundAlpha : 1,
-                  zoomControl: {
-                    panControlEnabled : true,
-                    zoomControlEnabled : true
-                  },
-                  dataProvider : {
-                    map : "worldHigh",
-                    getAreasFromMap : true,
-                    areas :
-                    [
-	                     {
-		                       "id": "DE",
-		                         "showAsSelected": true
-	                      },
-	                     {
-		                     "id": "ES",
-		                    "showAsSelected": true
-	                     },
-	                      {
-		                      "id": "FR",
-		                      "showAsSelected": true
-	                      },
-	                       {
-                      		"id": "CA",
-                      		"showAsSelected": true
-                      	},
-                      	{
-                      		"id": "MX",
-                      		"showAsSelected": true
-                      	},
-                      	{
-                      		"id": "US",
-                      		"showAsSelected": true
-                      	},
-                      	{
-                      		"id": "BR",
-                      		"showAsSelected": true
-                      	},
-                      	{
-                      		"id": "ZW",
-                      		"showAsSelected": true
-                      	},
-                      	{
-                      		"id": "CN",
-                      		"showAsSelected": true
-                      	},
-                      	{
-                      		"id": "JO",
-                      		"showAsSelected": true
-                      	},
-                      	{
-                      		"id": "KR",
-                      		"showAsSelected": true
-                      	}
-                      ]
-                      },
-                      areasSettings : {
-                      autoZoom : true,
-                      color : "#FFFFFF",
-                      colorSolid : "#FB5641",
-                      selectedColor : "#FB5641",
-                      outlineColor : "#666666",
-                      rollOverColor : "#FF8778",
-                      rollOverOutlineColor : "#000000"
-                      }
-                      });
-                      </script>
-                </div>
+            <div id="mapdiv" style="width: auto; height: 100%;"></div>
+            <div style="width: auto; font-size: 70%; padding: 5px 0; text-align: center; background-color: #fff; margin-top: 1px; color: #fff;"><a href="http://www.amcharts.com/visited_countries/" style="color: #fff;">Create your own visited countries map</a> or check out the <a href="http://www.amcharts.com/" style="color: #fff;">JavaScript Charts</a>.</div>
+            <script type="text/javascript">
+              var map = AmCharts.makeChart("mapdiv",{
+                type: "map",
+                theme: "dark",
+                pathToImages : "http://cdn.amcharts.com/lib/3/images/",
+                panEventsEnabled : true,
+                backgroundColor : "#fff",
+                backgroundAlpha : 1,
+                zoomControl: {
+                panControlEnabled : false,
+                zoomControlEnabled : false
+                },
+                dataProvider : {
+                map : "worldHigh",
+                getAreasFromMap : true,
+                areas :
+                [
+                	{
+                		"id": "CZ",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "DE",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "DK",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "IT",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "PL",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "UA",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "CA",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "MX",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "PR",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "US",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "AR",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "CL",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "GH",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "ZW",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "CN",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "IN",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "JO",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "KR",
+                		"showAsSelected": true
+                	},
+                	{
+                		"id": "AU",
+                		"showAsSelected": true
+                	}
+                ]
+                },
+                areasSettings : {
+                autoZoom : false,
+                color : "#fff",
+                colorSolid : "#FB5641",
+                selectedColor : "#FB5641",
+                outlineColor : "#666666",
+                rollOverColor : "#FB5641",
+                rollOverOutlineColor : "#000000"
+                }
+              });
+            </script>
+
+        </div>
+      </div>
+<!-- PeoplePageTwo-->
+      <div class = "jumbotron white-header PeoplePageOne" style = "background-color: white">
+        <div id = "cover" class = "container special">
+
+        </div>
+      </div>
+
+
+<!-- ApplyPage-->
+      <div class = "jumbotron white-header ApplyPage" style = "background-color: white">
+        <div id = "cover" class = "container special">
+          <center>
+            <h2 id="ApplyPageMainText"> love what you heard? <br> <br> Leave us your email and <br> get our application!</h2>
+
+            <div class="form">
+              <%= render 'emails/email', email: @email %>
+            </div>
+          </center>
+        </div>
+      </div>

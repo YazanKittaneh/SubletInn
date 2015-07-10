@@ -57,4 +57,5 @@ group :development, :test do
 
   gem 'bootstrap_form'
 
+  gem 'sendgrid'
 end
