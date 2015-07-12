@@ -164,7 +164,7 @@ padding: 0;
 /***RatesPages***/
 .well-lg.well{
   background-color: #FFFFFF;
-  margin-top: 10%;
+  margin-top: 20%;
   border-color: #FB5641;
 }
 
@@ -184,7 +184,16 @@ padding: 0;
   width: 100%;
   height: auto;
   margin-top: -40%;
+}
 
+#traveler {
+  width: 50%;
+  height: auto;
+}
+
+#student{
+  width: 47%;
+  height: auto;
 }
 /*** ApplyPage ***/
 .form {
