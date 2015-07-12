@@ -140,6 +140,10 @@ padding: 0;
 
 
 /*** LocalPage ***/
+
+#wormhole {
+  background-image: url("https://s3.amazonaws.com/subletinn/Photos/coffee.jpg");
+}
 .square {
   margin-left: 85%;
   padding-bottom: 15%;
@@ -193,6 +197,13 @@ padding: 0;
 
 #student{
   width: 47%;
+  height: auto;
+}
+
+/***FAQPage***/
+
+#faq {
+  width: 4%;
   height: auto;
 }
 /*** ApplyPage ***/
