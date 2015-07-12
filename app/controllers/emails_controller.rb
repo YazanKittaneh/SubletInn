@@ -10,7 +10,7 @@ class EmailsController < ApplicationController
   def create
     @email = Email.new(params.require(:email).permit(:address))
     if @email.save
-      EmailMailer.send_signup_email(@email).deliver
+      EmailMailer.send_signup_email(@email).deliver_now
       flash[:success] = "Thanks! I'll be in touch soon!"
       redirect_to :back
     else

@@ -5,7 +5,7 @@ class EmailMailer < ApplicationMailer
   def send_signup_email(email)
     @email = email
     mail( :to => @email.address,
-    :subject => 'SubletInn x Francis Application!' )
+    :subject => 'SubletInn: Francis Application' )
   end
 
 
