@@ -36,6 +36,10 @@ overflow-x: hidden;
  margin: 0px;
  padding: 0;
  margin-bottom: 0px;
+ }
+
+ .HomePageTwo {
+   box-shadow: 2px 2px 2px #000;
 
  }
 
@@ -79,8 +83,9 @@ overflow-x: hidden;
 #HomePageOneMainText{
   margin-top: 12%;
   text-align: center;
-  text-shadow:1px 2px 5px #978D8A;
   color: #fff;
+  font-weight: 20;
+  font-size: 80px;
 }
 
 #HomePageTwo-leftcol {
@@ -90,21 +95,15 @@ overflow-x: hidden;
 #introhead2 {
   line-height: 150%;
   font-family: 'Helvetica neue', Helvetica, arial, sans-serif;
+  font-weight: 14;
 }
 
 #headercolor {
-  font-family:HelveticaNeue;
   color:#FB5641;
-  padding-left: 40%;
-  padding-top: 3%;
 }
 
 #headerbw{
-  font-family:HelveticaNeue;
   text-align: center;
-  padding-right: 7%;
-  padding-top: 5%;
-  padding-bottom: 10%;
 }
 
 #house {
@@ -212,9 +211,10 @@ overflow-x: hidden;
   margin-top: 10%;
 }
 #ApplyPageMainText{
-  margin-top: 12%;
-  text-align: center;
-  text-shadow:1px 2px 5px #978D8A;
-  color: #fff;
-}
+    margin-top: 2%;
+    text-align: center;
+    color: #fff;
+    font-weight: 20;
+    font-size: 40px;
+  }
 /*** ApplyPage ***/
