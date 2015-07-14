@@ -58,4 +58,7 @@ group :development, :test do
   gem 'bootstrap_form'
 
   gem 'sendgrid'
+
+  gem 'owlcarousel-rails'
+  
 end

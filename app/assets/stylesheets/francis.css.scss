@@ -6,6 +6,7 @@ html,body {height:100%; width: 100%;
 margin: 0px;
 padding: 0;
 overflow-x: hidden;
+
 }
 .special,.special .jumbotron {
   height:100%;
@@ -39,7 +40,6 @@ overflow-x: hidden;
  }
 
  .HomePageTwo {
-   box-shadow: 2px 2px 2px #000;
 
  }
 
@@ -131,9 +131,13 @@ overflow-x: hidden;
 }
 
 #househeaderbw2 {
-  font-family:HelveticaNeue;
   text-align: center;
   line-height: 150%;
+    padding-top: 5%;
+  /*
+  padding-left: 45%;
+
+  */
   }
 
 /*** HomePage ***/
@@ -245,7 +249,6 @@ overflow-x: hidden;
 }
 
 .square {
-  margin-left: 85%;
   padding-bottom: 15%;
   width: 90%;
   height: auto;
