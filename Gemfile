@@ -59,6 +59,5 @@ group :development, :test do
 
   gem 'sendgrid'
 
-  gem 'owlcarousel-rails'
-  
+
 end
