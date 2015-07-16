@@ -40,6 +40,17 @@ overflow-x: hidden;
  margin-bottom: 0px;
  }
 
+ .ApplyPage {
+ background-image: url("https://s3.amazonaws.com/subletinn/Photos/city-streets.jpg");
+ background-size: cover;
+ height: 100%;
+ width: 100%;
+ border-radius: 0;
+ margin: 0px;
+ padding: 0;
+ margin-bottom: 0px;
+ }
+
  .HomePageTwo {
 
  }
@@ -66,17 +77,7 @@ overflow-x: hidden;
 
  }
 
- .ApplyPage {
- background-image: url("https://s3.amazonaws.com/subletinn/Photos/concert.jpg");
- background-size: cover;
- height: 100%;
- width: 100%;
- border-radius: 0;
- margin: 0px;
- padding: 0;
- margin-bottom: 0px;
 
- }
 /*** Page Styles ***/
 
 
@@ -140,7 +141,7 @@ overflow-x: hidden;
   */
   }
   #francis {
-    width: 70%;
+    width: 30%;
     height: auto;
   }
 
@@ -317,7 +318,7 @@ overflow-x: hidden;
 .content {
 	display:none;
 }
-.headerTitle {
+.headerTitle_color {
   text-align: center;
   font-size: 40pt;
   font-family: "Merriweather", serif;
@@ -327,10 +328,26 @@ overflow-x: hidden;
   font-weight: 700;
 }
 
+.headerTitle_white{
+  text-align: center;
+  font-size: 40pt;
+  font-family: "Merriweather", serif;
+  color: #000;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 700;
+}
 
-.faqbox {
-	background-color: #FB5641;
+
+.faqbox_color {
+  /* background-color:#FC7C7C*/
+	background-color: #000;
   color: #fff;
+}
+
+.faqbox_white {
+	background-color: #fff;
+  color: #000;
 }
 
 .faqbox img {
@@ -350,7 +367,7 @@ overflow-x: hidden;
 
 #faqquestions1 {
   font-family: "Merriweather", serif;
-  color: #fff;
+  color: #FB5641;
   font-weight: 700;
   font-style: italic;
   font-size: 24pt;
@@ -358,7 +375,7 @@ overflow-x: hidden;
 
 #faqquestions2 {
   font-family: "Merriweather", serif;
-  color: #FC7C7C;
+  color: #FB5641;
   font-weight: 700;
   font-style: italic;
   font-size: 24pt;
@@ -372,7 +389,7 @@ overflow-x: hidden;
 #faqanswer2 {
   font-family:'Helvetica neue', Helvetica, arial, sans-serif;
   font-size: 20pt;
-  color: #FC7C7C;
+  color: #000;
 }
 
 .faqbox img:hover {
@@ -398,4 +415,5 @@ overflow-x: hidden;
     font-weight: 20;
     font-size: 40px;
   }
+
 /*** ApplyPage ***/
