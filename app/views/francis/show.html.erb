@@ -572,8 +572,11 @@
     <div id = "cover" class = "container special">
       <center>
         <p id="ApplyPageMainText"> love what you heard? <br> <br> Leave us your email and <br> get the application!</p>
-        <div class="form">
-          <%= render 'emails/email', email: @email %>
+
+        <div class="form col-md-offset-1 col-md-1 col-offset-1">
+          <center>
+            <%= render 'emails/email', email: @email %>
+          </center>
         </div>
       </center>
     </div>
