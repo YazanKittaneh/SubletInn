@@ -28,6 +28,24 @@ overflow-x: hidden;
 
 
 /*** Page Styles ***/
+.success {
+  background-color: #8DBA24;
+  font-size: 1em;
+
+}
+
+.notice {
+  background-color: #5784DB;
+  font-size: 1em;
+  color: #fff;
+
+}
+
+.error {
+  background-color: #EE8383;
+  font-size: 1em;
+}
+
  .HomePageOne {
  background-image: url("https://s3.amazonaws.com/subletinn/Photos/concert.jpg");
  background-size: cover;
@@ -267,9 +285,9 @@ overflow-x: hidden;
 }
 
 #placesheader{
-  font-family: HelveticaNeue;
   text-align: center;
   padding-top: 5%;
+  font-weight: 8;
 }
 
 /***RatesPages***/
