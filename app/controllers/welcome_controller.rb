@@ -5,6 +5,6 @@ class WelcomeController < ActionController::Base
 #end
 
 def show
+ render :file => 'layouts/welcome.html.erb'
 end
-
 end
