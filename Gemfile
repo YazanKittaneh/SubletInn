@@ -59,5 +59,8 @@ group :development, :test do
 
   gem 'sendgrid'
 
+  gem 'rails_12factor', group: :production
+
+  gem 'bundler'
 
 end
