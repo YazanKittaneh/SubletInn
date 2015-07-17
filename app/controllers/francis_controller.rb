@@ -1,11 +1,11 @@
 class FrancisController < ActionController::Base
 
-#def show
-#  @welcome =
-#end
+layout 'francis'
+
+def show
+end
 
 def index
-  render :file => 'layouts/francis.html.erb'
 end
 
 end

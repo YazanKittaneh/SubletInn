@@ -51,5 +51,13 @@ group :development, :test do
   #auto prefixer so 1 less thing to worry about
   gem "autoprefixer-rails"
 
+  #gem "twitter-bootstrap-rails"
+
+  gem 'bootstrap-sass'
+
+  gem 'bootstrap_form'
+
+  gem 'sendgrid'
+
 
 end

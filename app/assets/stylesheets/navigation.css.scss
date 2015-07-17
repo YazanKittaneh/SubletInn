@@ -1,0 +1,57 @@
+@media (min-width: 0px) {
+  .navbar-fixed-top {
+    margin: 0;
+    margin-left: -10px;
+  }
+}
+
+.vert-menu{
+  margin-top: 5%;
+  width: 90px;
+  box-shadow: none;
+}
+
+
+.nav-pills > li > a:hover {
+    background-color: transparent;
+  }
+
+.nav-pills > li.active > a {
+
+}
+
+
+.menu-item {
+  padding-top: 30%;
+
+}
+
+#home {
+  width: 165%;
+  padding: 0px 0px 0px 0px;
+
+}
+
+#square {
+  width: 0.5em;
+  height: 0.5em;
+  background: #FB5641;
+  border-radius: 25%;
+
+  img {
+    width: 60%;
+    margin-top: 5px;
+  }
+}
+
+
+
+.collapse-button {
+  margin-right: 80%;
+  margin-top: 10px;
+}
+
+#toggle {
+  margin-right: 24px;
+  width: 50%;
+}

@@ -1,0 +1,45 @@
+<%= stylesheet_link_tag "emails" %>
+
+
+<div id="form">
+  <%= form_for @email do |f| %>
+  <div id = "rectangle">
+    <%= f.text_field :address %>
+  </div>
+    <%= f.submit %>
+  <% end -%>
+</div>
+
+<!--
+<%= form_for @email, class: "form-horizontal" do |f| %>
+
+                      <div class="form-group">
+                          <label class="control-label col-sm-3 col-lg-2"> Name</label>
+                          <div class="col-sm-6 col-lg-6">
+                          <%= text_field_tag "investor[name]", nil, type:"text", tabindex: "1", class: "form-control", pattern: "[!-~ ]{1,30}",  placeholder: 'Enter The Name',  required: true %>
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <label class="control-label col-sm-3 col-lg-2"> Email</label>
+                          <div class="col-sm-6 col-lg-6">
+                          <%= text_field_tag "investor[email]", nil, type:"text", tabindex: "1", class: "form-control", pattern: "[!-~ ]{1,30}",  placeholder: 'Enter The email',  required: true %>
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <label class="control-label col-sm-3 col-lg-2"> Mobile</label>
+                          <div class="col-sm-6 col-lg-6">
+                          <%= text_field_tag "investor[number]", nil, type:"text", tabindex: "1", class: "form-control", pattern: "[!-~ ]{1,30}",  placeholder: 'Enter The Mobile',  required: true %>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="actions">
+                              <div class="col-sm-3 col-lg-2"></div>
+                              <div class="col-xs-5 col-sm-3 col-lg-3">
+                              <%= submit_tag 'Submit', :class => 'btn btn-warning btn-block', tabindex: "2" %>
+                              </div>
+
+                              <div class="col-xs-2 col-sm-3 col-lg-4"></div>
+                          </div>
+                      </div>
+<% end %>
+-->
