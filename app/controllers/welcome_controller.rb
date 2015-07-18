@@ -4,7 +4,7 @@ class WelcomeController < ActionController::Base
 #  @welcome =
 #end
 
-def show
+def index
  render :file => 'layouts/welcome.html.erb'
 end
 end
