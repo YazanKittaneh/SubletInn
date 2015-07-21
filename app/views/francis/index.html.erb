@@ -76,16 +76,17 @@
 <!-- HomePageThree-->
 
   <a name = "FRANCIS"></a>
-  <br><br/>
-  <br><br/>
-  <br><br/>
-
-      <center><img id = "house" src = "https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear+house.png"></center>
+    <br><br/>
+    <br><br/>
+    <br><br/>
+      <div class="col-xs-offset-1 col-xs-10 col-xs-1">
+      <center><img src = "https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear+house.png"></center>
       <center>
         <h4 style = "line-height: 150%;">
           You will have your own room but you will share three bathrooms, <br/> a kitchen, a living room, and an entire experience!
         </h4>
       </center>
+    </div>
       <div class = "row"><br/></div>
 
 
@@ -157,7 +158,6 @@
         <div class = "col-xs-11 col-xs-offset-1">
             <center> <h4 id = "placesheader"> There are so many places around Francis to check out that it’ll make your head spin. <br/>Here are a few of our favorites.</h4></center>
 
-            <center>
             <ul class="photo-grid">
 	             <li>
 		               <a href="http://www.yelp.com/biz/the-wormhole-coffee-chicago">
@@ -252,9 +252,13 @@
 
             <center><img style = "min-width: 4.5%; height: auto;" src = "https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear+people.png"></center>
           <div class="row">
-            <div class = "col-xs-11 col-xs-offset-1">
+            <div class = "col-xs-offset-1 col-xs-10 col-xs-offset-1">
               <div class="row">
-                <center><h4 style="padding: 1%;line-height: 30px; text-align: center;">We have people coming all over the world to live in this slice of Logan Square.</h4></center>
+                <center><img src = "https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear+people.png"></center>
+              </div>
+              <div class="row">
+                <center><h4 style="font-weight: 300; line-height: 30px; font-family: 'Helvetica neue', Helvetica, arial, sans-serif;">we have people coming all over the world to live in this slice of logan square.</h4></center>
+
               </div>
             </div>
           </div>
@@ -268,7 +272,7 @@
                   type: "map",
                   theme: "dark",
                   pathToImages : "http://cdn.amcharts.com/lib/3/images/",
-                  panEventsEnabled : true,
+                  panEventsEnabled : false,
                   backgroundColor : "#fff",
                   backgroundAlpha : 1,
                   zoomControl: {
@@ -389,17 +393,26 @@
         <center><img style = "min-width: 4%; height: auto;" src = "https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear+tag.png"></center>
       <div class="row">
         <div class = "col-xs-12">
+
           <div class="row">
-            <center><h3 style = "color: #FB5641; margin-top: 2%;"> No strings attached </h3></center>
+            <div class="col-xs-offset-1 col-xs-10 col-xs-offset-1">
+            <center><img src = "https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear+tag.png"></center>
           </div>
           <div class="row">
-            <center><h4 style = "line-height: 150%;"> The cool thing about Francis is that you can <br/>stay as long as you want <br/>
-            ... or as short as you want. </h4></center>
+            <div class="col-xs-offset-1 col-xs-10 col-xs-offset-1">
+              <center><h3 style = "color: #FB5641; margin-top: 5%"> no strings attached </h3></center>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-xs-offset-1">
+              <center><h4 style = "line-height: 150%;"> the cool thing about francis is that you can <br/>stay as long as you want <br/> ... or as short as you want. </h4></center>
+            </div>
+
           </div>
         </div>
       </div>
       <div class="row">
-        <div class = "col-md-2 col-md-offset-2">
+        <div class = "col-xs-offset-3 col-xs-6 col-xs-offset-3 col-sm-2 col-sm-offset-2">
           <div class = "well well-lg">
             <center><h3 id = "rateshead">the visitor</h3>
             <img id = "alien" src = "https://s3.amazonaws.com/subletinn/Icons/rates+page/alien.png">
@@ -408,7 +421,7 @@
           </div>
           <img id = "onemonth" src = "https://s3.amazonaws.com/subletinn/Icons/rates+page/one-month.png">
         </div>
-      <div class = "col-md-2 col-md-offset-1">
+      <div class = "col-xs-offset-3 col-xs-6 col-xs-offset-3  col-sm-2 col-sm-offset-1">
           <div class = "well well-lg"><center>
             <center> <h3 id = "rateshead">the traveler</h3></center>
              <img id = "traveler" src = "https://s3.amazonaws.com/subletinn/Icons/rates+page/traveler.png">
@@ -417,7 +430,7 @@
           </div>
             <img id = "onemonth" src = "https://s3.amazonaws.com/subletinn/Icons/rates+page/two-month.png">
       </div>
-        <div class = "col-md-2 col-md-offset-1">
+        <div class = "col-xs-offset-3 col-xs-6 col-xs-offset-3 col-sm-2 col-sm-offset-1">
             <div class = "well well-lg"><center>
               <center> <h3 id = "rateshead">the student</h3></center>
                <img id = "student" src = "https://s3.amazonaws.com/subletinn/Icons/rates+page/backpack.png">
@@ -438,10 +451,7 @@
       <div id = "cover" class = "container">
 
           <a name = "FAQ"></a>
-        <div class="row">
           <center><img id = "faq" style = "min-width: 5%; height: auto;"src = "https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/faq.png"></center>
-        </div>
-
         <div class="row">
           <div class = "col-xs-12">
               <center><h2 style = "color:#FB5641; padding: 3%;line-height: 150%;">Still have questions? <br/>Click below for answers</h2></center>
@@ -591,7 +601,7 @@
       <center>
         <p id="ApplyPageMainText" style="text-shadow: 2px 2px 2px #000"> Love what you've heard? <br> <br> Leave us your email and <br> get the application!</p>
 
-        <div class="form col-md-offset-1 col-md-10 col-offset-1">
+        <div class="form col-xs-offset-1 col-xs-10 col-xs-1 col-md-offset-1 col-md-10 col-md-offset-1">
             <%= render 'emails/email', email: @email %>
         </div>
       </center>
