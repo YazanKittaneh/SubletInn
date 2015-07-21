@@ -1,32 +1,13 @@
 <%= stylesheet_link_tag "navigation" %>
+<%= javascript_include_tag('navigation') %>
+
+
 
 <!--
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class = "container">
-    <div class = "navbar-header">
-      <div class = "clearfix">
-        <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#example">
-          <span class = "icon-bar"></span>
-          <span class = "icon-bar"></span>
-          <span class = "icon-bar"></span>
-        </button>
-        <a href="" class = "navbar-brand pull-left"><img id = "francis" src = "https://s3.amazonaws.com/subletinn/Icons/francis.png"></a>
-      </div>
-    </div>
-    <div class = "collapse navbar-collapse nav-stacked" id = "example">
-      <ul class = "nav navbar-nav pull-right nav-stacked">
-        <li class=""><a href="francis.subletinn.com/community">community</a></li>
-        <li><a href="francis.subletinn.com/people">people</a></li>
-        <li><a href="francis.subletinn.com/sights">sights</a></li>
-        <li><a href="francis.subletinn.com/faq">faq</a></li>
-    </div>
-  </div>
-</nav>
--->
-
       <button type = "button" class = "navbar-toggle navbar-absolute collapse-button " data-toggle = "collapse" data-target = ".vert-menu" style="position: fixed;">
-        <img id = "toggle" src = "https://s3.amazonaws.com/subletinn/Icons/navbar/toggle-2.png"></a>
+        <span></span>
       </button>
+
       <ul class="nav collapse navbar-collapse nav-pills nav-stacked navbar-fixed-top navbar-absolute vert-menu">
         <li class="menu-item"><a href="#FRANCIS"><img id = "home" src = "https://s3.amazonaws.com/subletinn/Icons/navbar/home-button.png"></a></li>
         <li class="menu-item"><a href="#LOCAL"><img id = "home" src = "https://s3.amazonaws.com/subletinn/Icons/navbar/local-button.png"></a></li>
@@ -34,13 +15,37 @@
         <li class="menu-item"><a href="#RATES"><img id = "home" src = "https://s3.amazonaws.com/subletinn/Icons/navbar/rates-button.png"></a></li>
         <li class="menu-item"><a href="#FAQ"><img id = "home" src = "https://s3.amazonaws.com/subletinn/Icons/navbar/faq-button.png"></a></li>
         <li class="menu-item"><a href="#APPLY"><img id = "home" src = "https://s3.amazonaws.com/subletinn/Icons/navbar/apply-button.png"></a></li>
-        <!--
-        <li class="menu-item"><a href=""><div id="square">
-          <center>
-            <img  src = "https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear-white-rates.png">
-          </center>
-        </div></a></li>
 
-      -->
 
       </ul>
+-->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+<div class="nav-side-menu">
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content-mobile"></i>
+
+        <div class="menu-list">
+
+            <ul id="menu-content" class="menu-content collapse out">
+              <li class="menu-item"><a href="#FRANCIS"><img id = "home" src = "https://s3.amazonaws.com/subletinn/Icons/navbar/home-button.png"></a></li>
+              <li class="menu-item"><a href="#LOCAL"><img id = "home" src = "https://s3.amazonaws.com/subletinn/Icons/navbar/local-button.png"></a></li>
+              <li class="menu-item"><a href="#PEOPLE"><img id = "home" src = "https://s3.amazonaws.com/subletinn/Icons/navbar/people-button.png"></a></li>
+              <li class="menu-item"><a href="#RATES"><img id = "home" src = "https://s3.amazonaws.com/subletinn/Icons/navbar/rates-button.png"></a></li>
+              <li class="menu-item"><a href="#FAQ"><img id = "home" src = "https://s3.amazonaws.com/subletinn/Icons/navbar/faq-button.png"></a></li>
+              <li class="menu-item"><a href="#APPLY"><img id = "home" src = "https://s3.amazonaws.com/subletinn/Icons/navbar/apply-button.png"></a></li>
+            </ul>
+
+            <ul id="menu-content-mobile" class="menu-content-thing collapse out">
+              <div class="row-fluid">
+                <li class="menu-item-mobile"><a href="#FRANCIS"><div class="span-12"><p>Francis</p></div></a></li>
+                <li class="menu-item-mobile"><a href="#LOCAL"><div class="span-12"><p>Local</p></div></a></li>
+                <li class="menu-item-mobile"><a href="#PEOPLE"><div class="span-12"><p>People</p></div></a></li>
+                <li class="menu-item-mobile"><a href="#RATES"><div class="span-12"><p>Rates</p></div></a></li>
+                <li class="menu-item-mobile"><a href="#FAQ"><div class="span-12"><p>FAQ</p></div></a></li>
+                <li class="menu-item-mobile"><a href="#APPLY"><div class="span-12"><p>APPLY</p></div></a></li>
+              </div>
+            </ul>
+
+        </div>
+</div>
