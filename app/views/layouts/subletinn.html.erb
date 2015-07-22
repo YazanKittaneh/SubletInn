@@ -5,11 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head>
+  <%= javascript_include_tag('application') %>
+  <%= stylesheet_link_tag "subletinn" %>
+
 
 </head>
 
 <body>
-
+<%= render 'subletinn/partials/navigation'%>
   <%= yield %>
 </body>
 
