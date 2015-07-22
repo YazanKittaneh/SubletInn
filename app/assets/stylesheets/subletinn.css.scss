@@ -14,7 +14,7 @@ position: fixed;
   font-family:'Helvetica neue ', Helvetica, arial, sans-serif;
   font-size: 1.2em;
   color: white;
-  padding-top: 2%;
+  font-weight: 200;
 }
 
 .navbar {
@@ -29,7 +29,7 @@ nav.navbar-findcond ul.navbar-nav a:visited,
 nav.navbar-findcond ul.navbar-nav a:focus,
 nav.navbar-findcond ul.navbar-nav a:active { background: none; }
 nav.navbar-findcond ul.navbar-nav a:hover { border-color: none; }
-nav.navbar-findcond button.navbar-toggle { background: #f14444; border-radius: 2px; }
+nav.navbar-findcond button.navbar-toggle { background:#9D0B0B; border-radius: 2px; }
 nav.navbar-findcond button.navbar-toggle:hover { background: #999; }
 nav.navbar-findcond button.navbar-toggle > span.icon-bar { background: #fff; }
 nav.navbar-findcond ul.dropdown-menu { border: 0; background: #fff; border-radius: 4px; margin: 4px 0; box-shadow: 0 0 4px 0 #ccc; }
@@ -54,4 +54,22 @@ nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color
   margin: 0px;
   padding: 0;
   margin-bottom: 0px;
+}
+
+#lock {
+  padding-top: 30%;
+  max-width: 70%;
+  height: auto;
+}
+
+#mainheader {
+ font-family:'Helvetica neue ', Helvetica, arial, sans-serif;
+ font-weight: 200;
+ line-height: 150%;
+ font-size: 4.5em;
+ margin-top: 10%;
+ text-align: center;
+ color: white;
+ width: 100%;
+ height: auto;
 }
