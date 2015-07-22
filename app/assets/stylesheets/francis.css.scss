@@ -26,7 +26,6 @@ position: fixed;
 .success {
   background-color: #8DBA24;
   font-size: 1em;
-
 }
 
 .notice {
@@ -39,6 +38,15 @@ position: fixed;
 .error {
   background-color: #EE8383;
   font-size: 1em;
+}
+
+.notification {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+
 }
 
  .HomePageOne {
