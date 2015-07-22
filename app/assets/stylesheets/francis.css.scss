@@ -14,17 +14,11 @@ position: fixed;
   width: 100%;
   border-radius: 0px;
   margin: 0px;
-  padding: 0;
+  padding-top: 50px;
   margin-bottom: 0px;
 }
 
-.special {
-  width: auto;
-  margin: 0px;
-  padding: 0;
-  margin-bottom: 0px;
 
-}
 /*** SETUP ***/
 
 
@@ -109,6 +103,10 @@ position: fixed;
      display: none;
      height: auto;
      width: auto;
+   }
+
+   .jumbotron {
+     padding-top: 90px;
    }
 
 }
