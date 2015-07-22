@@ -5,7 +5,7 @@ layout 'subletinn'
 #  @welcome =
 #end
 
-def index
+def main
 
 end
 end
