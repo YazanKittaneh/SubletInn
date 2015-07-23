@@ -1,0 +1,12 @@
+/* line 1, /Users/ruthwu/Documents/SubletInn/app/assets/stylesheets/rails_bootstrap_forms.css.scss */
+.rails-bootstrap-forms-date-select select,
+.rails-bootstrap-forms-time-select select,
+.rails-bootstrap-forms-datetime-select select {
+  display: inline-block;
+  width: auto;
+}
+
+/* line 8, /Users/ruthwu/Documents/SubletInn/app/assets/stylesheets/rails_bootstrap_forms.css.scss */
+.rails-bootstrap-forms-error-summary {
+  margin-top: 10px;
+}
