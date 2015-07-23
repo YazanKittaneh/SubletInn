@@ -36,14 +36,7 @@ nav.navbar-findcond ul.dropdown-menu { border: 0; background: #fff; border-radiu
 nav.navbar-findcond ul.dropdown-menu > li > a { color: #444; }
 nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color: #fff; }
 
-.special .jumbotron {
-  height:100%;
-  width: 100%;
-  border-radius: 0px;
-  margin: 0px;
-  padding: 0;
-  margin-bottom: 0px;
-}
+
 
 .mainphoto {
   background-image: url("https://s3.amazonaws.com/subletinn/Photos/concert.jpg");
@@ -72,4 +65,40 @@ nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color
  color: white;
  width: 100%;
  height: auto;
+}
+
+.well-sm.well{
+  background-color: rgba(255,255,255,0);
+  margin-top: 20%;
+  border-color: #FFFFFF;
+  border-radius: 15px;
+  border-width: medium;
+  width: 10em;
+  height: 10em;
+}
+
+.wellfont {
+  color: white;
+  text-align: center;
+  margin-top: 30%;
+}
+
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #DF3C0E;
+  color: white;
 }
