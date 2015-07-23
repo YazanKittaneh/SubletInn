@@ -8,17 +8,11 @@
   width: 100%;
   border-radius: 0px;
   margin: 0px;
-  padding: 0;
+  padding-top: 50px;
   margin-bottom: 0px;
 }
 
-.special {
-  width: auto;
-  margin: 0px;
-  padding: 0;
-  margin-bottom: 0px;
 
-}
 /*** SETUP ***/
 
 
@@ -26,7 +20,6 @@
 .success {
   background-color: #8DBA24;
   font-size: 1em;
-
 }
 
 .notice {
@@ -39,6 +32,15 @@
 .error {
   background-color: #EE8383;
   font-size: 1em;
+}
+
+.notification {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+
 }
 
  .HomePageOne {
@@ -63,9 +65,7 @@
  margin-bottom: 0px;
  }
 
- .HomePageTwo {
 
- }
 
 .carsosel-header{
   background-image: url("https://s3.amazonaws.com/subletinn/Photos/concert.jpg");
@@ -105,6 +105,10 @@
      width: auto;
    }
 
+   .jumbotron {
+     padding-top: 90px;
+   }
+
 }
 
 /*** Page Styles ***/
@@ -120,7 +124,7 @@
 }
 
 #HomePageTwo-leftcol {
-  padding-left: 15%;
+  padding-left: -15%;
 }
 
 #introhead2 {
