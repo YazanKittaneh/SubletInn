@@ -63,4 +63,6 @@ group :development, :test, :production do
 
   gem 'bundler'
 
+  gem "braintree"
+
 end
