@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   resources :francis, :welcome, :emails, :payments
 
+  post "/checkout", to: 'payments#create'
+
   # You can have the root of your site routed with "root"
    root 'welcome#index'
 

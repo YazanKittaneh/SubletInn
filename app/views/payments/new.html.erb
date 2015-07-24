@@ -1,1 +1,26 @@
+<%= javascript_include_tag "application" %>
+<%= stylesheet_link_tag "francis" %>
+
+<% if flash[:success] or flash[:notice] or flash[:error]%>
+  <div class="container notification">
+    <div class="row-fluid"> <!-- Give this div your desired background color -->
+      <div class="span-12">
+        <center>
+          <% if flash[:success] %>
+            <div class="success"><%= flash[:success] %></div>
+          <% end %>
+          <% if flash[:notice] %>
+            <div class="notice"><%= flash[:notice] %></div>
+          <% end %>
+          <% if flash[:error] %>
+            <div class="error"><%= flash[:error] %></div>
+          <% end %>
+        </center>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+
+
 <%= render 'form' %>
