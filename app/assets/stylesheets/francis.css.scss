@@ -116,20 +116,26 @@ position: fixed;
      padding-top: 90px;
    }
 
+   #socialcontainer ul a img{
+     width: 30%;
+   }
 }
 
 /*** Page Styles ***/
 
 
 /*** HomePage ***/
-
-#social {
+#socialcontainer {
   display: inline;
+  list-style-type: none;
+  padding-right: 20px;
 }
-#socialimg {
-  max-width: 15%;
-  height: auto;
+
+#socialcontainer img{
+  width: 50%;
+  padding-bottom: 10px;
 }
+
 #HomePageOneMainText{
   margin-top: 5%;
   text-align: center;
@@ -449,7 +455,7 @@ position: fixed;
 }
 /*** ApplyPage ***/
 .form {
-  margin-top: 10%;
+  margin-top: 3%;
 }
 #ApplyPageMainText{
     margin-top: 2%;
