@@ -1,0 +1,10 @@
+<form id="checkout" method="post" action="/plan">
+<%= radio_button_tag(:plan, "700") %>
+<%= label_tag("3 months") %>
+<%= radio_button_tag(:plan, "750") %>
+<%= label_tag("2 months") %>
+<%= radio_button_tag(:plan, "800") %>
+<%= label_tag("1 months") %>
+</form>
+
+<%= @plan %>

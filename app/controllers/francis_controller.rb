@@ -1,6 +1,6 @@
 class FrancisController < ActionController::Base
 
-layout 'francis'
+layout 'francis', except: [:payments]
 
 def new
 end
@@ -13,6 +13,7 @@ def index
 end
 
 def payments
+  redirect_to action: 'payments#new'
 end
 
 

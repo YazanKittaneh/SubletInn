@@ -5,6 +5,8 @@ def new
   @amount
 end
 
+def show
+end
 
 def create
   nonce = params[:payment_method_nonce]
@@ -20,9 +22,8 @@ def create
   redirect_to action: :new
 end
 
-def amount
-  @amount = params[:amount]
+def plan
+  @plan = null
 end
-
 
 end
