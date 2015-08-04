@@ -27,7 +27,7 @@ class EmailsController < ApplicationController
 
   end
 
-  def show
+  def index
   end
 
   def thank_you

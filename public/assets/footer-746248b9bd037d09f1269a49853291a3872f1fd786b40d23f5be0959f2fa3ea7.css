@@ -1,0 +1,66 @@
+/* line 1, /Users/L7/git/SubletInn/app/assets/stylesheets/footer.css.scss */
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 25px solid #D0553D;
+  border-right: 25px solid #D0553D;
+  border-bottom: 25px solid white;
+}
+
+/* line 9, /Users/L7/git/SubletInn/app/assets/stylesheets/footer.css.scss */
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 25px solid #D0553D;
+  border-right: 25px solid #D0553D;
+  border-top: 25px solid white;
+}
+
+/* line 17, /Users/L7/git/SubletInn/app/assets/stylesheets/footer.css.scss */
+#footer {
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  background: #FFFFFF;
+}
+
+/* line 25, /Users/L7/git/SubletInn/app/assets/stylesheets/footer.css.scss */
+#headercolor2 {
+  padding-top: 15%;
+  color: #D0553D;
+  text-align: center;
+}
+
+/* line 31, /Users/L7/git/SubletInn/app/assets/stylesheets/footer.css.scss */
+#headerbw {
+  text-align: center;
+}
+
+/* line 35, /Users/L7/git/SubletInn/app/assets/stylesheets/footer.css.scss */
+#socialcontainer2 {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+/* line 41, /Users/L7/git/SubletInn/app/assets/stylesheets/footer.css.scss */
+#socialcontainer2 img {
+  width: 25%;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 48, /Users/L7/git/SubletInn/app/assets/stylesheets/footer.css.scss */
+  #socialcontainer2 li {
+    display: inline;
+    padding-bottom: 10px;
+  }
+
+  /* line 53, /Users/L7/git/SubletInn/app/assets/stylesheets/footer.css.scss */
+  #socialcontainer2 img {
+    width: 15%;
+    height: auto;
+  }
+}
