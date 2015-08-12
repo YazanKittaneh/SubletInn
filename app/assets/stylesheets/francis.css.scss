@@ -128,9 +128,23 @@ position: fixed;
 
 
 /*** HomePage ***/
+#contact {
+
+  font-family:'Helvetica neue', Helvetica, arial, sans-serif;
+  color: #FB5641;
+  font-weight: 200;
+  font-size: 20pt;
+  line-height: 100%;
+}
+#infocontact {
+  font-size: 15pt;
+  font-family:'Helvetica neue', Helvetica, arial, sans-serif;
+  line-height: 100%;
+}
 .edgar {
   width: 20%;
   height: auto;
+  margin-top: -5%;
 }
 
 @media screen and (max-width: 768px) {
