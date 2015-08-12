@@ -128,6 +128,18 @@ position: fixed;
 
 
 /*** HomePage ***/
+.edgar {
+  width: 20%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .edgar {
+    width: 40%;
+    height: auto;
+  }
+
+  }
 #socialcontainer {
   display: inline;
   list-style-type: none;
