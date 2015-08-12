@@ -24,7 +24,11 @@
   </div>
 <% end %>
 
-
+<head>
+  <title>
+    Live in Chicago's bustling Logan Square with other young professionals
+  </title>
+</head>
 <!-- HomePageOne -->
 <div class="jumbotron  HomePageOne">
   <div id = "cover" class="container special">
@@ -63,11 +67,12 @@
        </div>
       </div>
 
-      <div class = "col-xs-12  col-s-12 col-md-3 col-md-offset-2">
+    <!--  <div class = "col-xs-12  col-s-12 col-md-3 col-md-offset-2">
         <div class = "container">
           <img class = "edgar" src= "https://s3.amazonaws.com/subletinn/Photos/edgar.png">
         </div>
       </div>
+    -->
         <br>
         <br>
       </div>
@@ -450,7 +455,8 @@
                       <p id = "faqquestions1"> Okay, so how many people will be living with me at Francis? </p>
                       <p id = "faqanswer"> There are 11 rooms available, thus there'll be a maximum of
                         10 people living with you at any given time </p>
-
+                      <p id = "faqquestions1"> What's the age group living in the house? </p>
+                      <p id = "faqanswer"> The people living here tend to be between the ages of 19-27.</p>
                       <p id = "faqquestions1"> Francis isn't an apartment building right?</p>
                       <p id = "faqanswer"> Francis is most definitely a house. </p>
 
@@ -463,7 +469,7 @@
 
 
                       <p id = "faqquestions1"> Do I have to pay utilities?<p>
-                      <p id = "faqanswer"> Nein!</p>
+                      <p id = "faqanswer"> Nein! Utilities cover Wi-Fi, gas, water, and electricity bills.</p>
 
 
                       <p id = "faqquestions1"> Are there laundry facilities?<p>
@@ -483,6 +489,7 @@
                         into rude people (and we're sure you aren't either) so we have an application process. There's a spirit of self governance here where everyone who lives here is responsible for themselves
                         and others' well being. Also, the house itself has a modern decor that's great for hanging out. So yes! Francis is
                         definitely one of the best places to be in our opinion. <p>
+
                     </center>
                   </div>
                 </div>
@@ -538,7 +545,7 @@
                       <p id = "faqquestions2"> Can I renew my stay?</p>
                       <p id = "faqanswer2"> Rooms are rented out based on a one month, two month, or three month package. If you would like to stay beyond the length of stay you've chosen, simply reapply and you'll get accepted based on availability. </p>
                       <p id = "faqquestions2"> May I get a refund if I don't stay the entire month?</p>
-                      <p id = "faqanswer2"> Unfortunately we don't offer refunds. You pay for the month of stay regardless of the package you've chosen. For example, if you've paid for a three month stay but end up only being able to stay for a shorter period, make sure you move out before the next month starts. <br/> Otherwise you must pay for that month.</p>
+                      <p id = "faqanswer2"> Unfortunately we don't offer refunds. You must pay for the month of stay regardless of the package you've chosen. For example, if you've paid for a three month stay but end up only being able to stay for a shorter period, make sure you move out before the next month starts. <br/> Otherwise you must pay for that month.</p>
                       <p id = "faqquestions2"> So when can I move in?</p>
                       <p id = "faqanswer2"> Since rooms are rented by the calendar month, in order to get the most for your money, feel free to move in at the start of the month!</p>
                     </center>
@@ -554,7 +561,7 @@
                   <div class="faqbox_color">
                     <center>
                       <p id = "faqquestions1"> phone </p>
-                      <p id = "faqanswer"> (312)-234-2342</p>
+                      <p id = "faqanswer"> (312)-714-0294</p>
 
                       <p id = "faqquestions1"> email </p>
                       <p id = "faqanswer">chicagosubletinn@gmail.com</p>
@@ -583,7 +590,7 @@
   <div class = "jumbotron white-header ApplyPage" style = "background-color: white">
     <div id = "cover" class = "container special">
       <center>
-        <p id="ApplyPageMainText" style="text-shadow: 2px 2px 2px #000"> Love what you've heard? <br> <br> Leave us your email and <br> get the application!</p>
+        <p id="ApplyPageMainText" style="text-shadow: 2px 2px 2px #000">  Leave us your email and <br> get the application! <br><br> Currently we only have <br> availability for October 2015 and on!</p>
 
         <div class="form col-xs-offset-1 col-xs-10 col-xs-1 col-md-offset-1 col-md-10 col-md-offset-1">
           <%= render 'emails/email', email: @email %>
