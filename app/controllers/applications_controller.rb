@@ -2,11 +2,11 @@ class ApplicationsController < ActionController::Base
 
 
   def new
-    @applicaiton = Application.new
+    @application = Application.new
   end
 
   def create
-    @applicaiton = Application.create(name: params[:name],
+    @application = Application.new(name: params[:name],
                                       email: params[:email],
                                       date: DateTime.now,
                                       phone_number: params[:phone_number],
@@ -19,13 +19,22 @@ class ApplicationsController < ActionController::Base
                                       chicago: params[:chicago],
                                       description: params[:description],
                                       article: params[:article])
+
+    if @application.save
+      EmailMailer.send_application_email(@application).deliver_now
+    else
+      flash[:error] = "shiitsonee"
+    end
   end
 
- def show
+  def show
+  end
 
+ def getEmail
+   return @application.email
  end
 
- def index
- end
+  def index
+  end
 
 end
