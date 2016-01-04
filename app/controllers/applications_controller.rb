@@ -6,7 +6,7 @@ class ApplicationsController < ActionController::Base
   end
 
   def create
-    @application = Application.new(name: params[:name],
+    @application = Application.create(name: params[:name],
                                       email: params[:email],
                                       date: DateTime.now,
                                       phone_number: params[:phone_number],
@@ -20,8 +20,9 @@ class ApplicationsController < ActionController::Base
                                       description: params[:description],
                                       article: params[:article])
 
-    if @application.save
-      EmailMailer.send_application_email(@application).deliver_now
+    if @application.save && @application!=nil
+      EmailMailer.send_signup_email(@application).deliver_now
+      redirect_to :back
     else
       flash[:error] = "shiitsonee"
     end
@@ -30,11 +31,9 @@ class ApplicationsController < ActionController::Base
   def show
   end
 
- def getEmail
-   return @application.email
- end
 
   def index
+    @application = Application.all
   end
 
 end

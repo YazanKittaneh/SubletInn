@@ -8,7 +8,7 @@ class EmailMailer < ApplicationMailer
     :subject => 'SubletInn: Francis Application' )
   end
 
-  def send_application_email(application)
+  def send_form_email(application)
     @application = application
     mail( :to => application.email,
     :subject => 'SubletInn: Francis Application' )
