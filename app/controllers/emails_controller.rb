@@ -9,22 +9,22 @@ class EmailsController < ApplicationController
 
   def create
     #checks to see if email is valid before saving it to database or anything
-    if params[:email][:address] =~ /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
-
-      @email = Email.new(params.require(:email).permit(:address))
-      if @email.save
-        EmailMailer.send_signup_email(@email).deliver_now
-        flash[:success] = "Thank you! Check your email for our appplication."
-        redirect_to :back
-      else
-        flash[:error] = "Whoops. Something went wrong. Try again!"
-        redirect_to :back
-        end
-    else
-      flash[:notice] = "Hmm, that email doesn't seem to be valid!"
-      redirect_to :back
-    end
-
+    #if params[:email][:address] =~ /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
+    #
+    #  @email = Email.new(params.require(:email).permit(:address))
+    #  if @email.save
+    #    EmailMailer.send_signup_email(@email).deliver_now
+    #    flash[:success] = "Thank you! Check your email for our appplication."
+    #    redirect_to :back
+    #  else
+    #    flash[:error] = "Whoops. Something went wrong. Try again!"
+    #    redirect_to :back
+    #    end
+    #else
+    #  flash[:notice] = "Hmm, that email doesn't seem to be valid!"
+    #  redirect_to :back
+    #end
+    redirect_to "https://docs.google.com/forms/d/1UBb_yvVy3BRVXYgcCh0sTWJNX9pQxXLqLFrCXsr-qgY/viewform?c=0&w=1"
   end
 
   def index
