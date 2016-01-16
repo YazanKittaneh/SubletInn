@@ -5,9 +5,14 @@ Rails.application.routes.draw do
   resources :francis, :subletinn, :emails, :forms
 
   # You can have the root of your site routed with "root"
-   root 'subletinn#main'
+   root 'subletinn#index'
 
 
+   resources :subletinn do
+     member do
+       get 'francis'
+     end
+   end
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

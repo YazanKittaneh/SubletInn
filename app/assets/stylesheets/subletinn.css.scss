@@ -18,11 +18,19 @@ position: fixed;
 }
 
 .navbar {
-  background-color: none;
+  background-color: #d0553d;
+  height: 40px;
+  border-color: transparent;
+}
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px; /* firefox bug fix */
+  width: auto;
 }
 
-nav.navbar-findcond { background: none; border-color: none; }
-nav.navbar-findcond a { color: none; }
 nav.navbar-findcond ul.navbar-nav a { color: none}
 nav.navbar-findcond ul.navbar-nav a:hover,
 nav.navbar-findcond ul.navbar-nav a:visited,
@@ -36,10 +44,13 @@ nav.navbar-findcond ul.dropdown-menu { border: 0; background: #fff; border-radiu
 nav.navbar-findcond ul.dropdown-menu > li > a { color: #444; }
 nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color: #fff; }
 
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
 
 
 .mainphoto {
-  background-image: url("https://s3.amazonaws.com/subletinn/Photos/concert.jpg");
+  background-image: url("https://s3.amazonaws.com/subletinn/Photos/city-cars-traffic-lights.jpeg");
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -49,10 +60,20 @@ nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color
   margin-bottom: 0px;
 }
 
+#francis{
+  margin-top: -2%;
+  width: 20%;
+}
+
 #lock {
   padding-top: 30%;
-  max-width: 70%;
+  max-width: 40%;
   height: auto;
+}
+
+#down-arrow{
+  width: 7%;
+  padding-top: 35%;
 }
 
 #mainheader {
@@ -65,6 +86,7 @@ nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color
  color: white;
  width: 100%;
  height: auto;
+ text-shadow: 1px 1px 1px black;
 }
 
 .well-sm.well{
@@ -102,3 +124,85 @@ nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color
   background-color: #DF3C0E;
   color: white;
 }
+
+
+/** EQUATION ICON SIZING **/
+
+.equation_icon{
+  padding: 10px;
+}
+
+#plus{
+  width: 8%;
+}
+#people{
+  width: 17%;
+}
+ #air{
+  width: 17%;
+}
+ #house {
+  width: 17%;
+}
+
+
+/** Text formatting **/
+#heading{
+  color: #DF3C0E;
+  font-size: 30px;
+}
+
+.text{
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #5B5C59;
+  font-size: 60px;
+}
+
+#banner{
+  padding: 60px;
+  width: 100%;
+}
+
+
+
+/** PHONES **/
+@media screen and (max-width: 768px) {
+  .text{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  #banner{
+    visibility: hidden;
+  }
+
+
+  #down-arrow{
+    width: 30%;
+    padding-top: 35%;
+  }
+  }
+
+
+/** TABLETS **/
+@media screen and (max-width: 970px) {
+  .text{
+    margin-left: 95px;
+    margin-right: 20px;
+  }
+
+
+  #down-arrow{
+    width: 15%;
+    padding-top: 35%;
+  }
+}
+
+  /** MEDIUM DESKTOPS **/
+  @media screen and (max-width: 1170px) {
+    .text{
+      margin-left: 95px;
+      margin-right: 20px;
+    }
+  }

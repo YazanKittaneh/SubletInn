@@ -1,8 +1,5 @@
-<!-- STYLESHEETS -->
-<%= stylesheet_link_tag "emails" %>
 <%= stylesheet_link_tag "francis" %>
-<!-- STYLESHEETS -->
-
+<%= stylesheet_link_tag "emails" %>
 
 <% if flash[:success] or flash[:notice] or flash[:error]%>
   <div class="container notification">
@@ -45,7 +42,7 @@
     <div class="row">
         <div class = "col-xs-offset-5 col-xs-4 col-xs-offset-3
                       col-sm-offset10 col-sm-2
-                      col-md-offset-11  col-md-1
+                        col-md-offset-11  col-md-1
                       col-lg-offset-11 col-lg-1   ">
           <ul id =  "socialcontainer">
             <li><a href = 'https://medium.com/@chicago.subletinn'><img src = "https://s3.amazonaws.com/subletinn/Icons/social+media/medium.png"></a></li>
@@ -54,6 +51,16 @@
         </div>
       </div>
     <center><p id="HomePageOneMainText" style = "line-height: 150%;"> Live in the heart of <br/> Logan Square</p></center>
+    <br>
+    <br>
+    <center>
+      <div class="form col-xs-offset-1 col-xs-10 col-xs-1
+                  col-sm-offset-4 col-sm-3 col-sm-offset-4
+                   col-lg-offset-5 col-md-2 col-md-offset-5">
+        <%= render 'emails/email', email: @email %>
+      </div>
+    </center>
+
   </div>
 </div>
 
@@ -140,12 +147,21 @@
           </div>
 
           <div class="item">
+            <img src="https://s3.amazonaws.com/subletinn/Photos/Room_6.jpg" style="height: auto; width: 100%;" alt="living room">
+          </div>
+
+          <div class="item">
             <img src="https://s3.amazonaws.com/subletinn/Place/Dining1.jpg" style="height: auto; width: 100%;" alt="living room">
           </div>
 
           <div class="item">
             <img src="https://s3.amazonaws.com/subletinn/Place/Living3.jpg" style="height: auto; width: 100%;" alt="living room">
           </div>
+
+          <div class="item">
+            <img src="https://s3.amazonaws.com/subletinn/Photos/Room_11.jpg" style="height: auto; width: 100%;" alt="living room">
+          </div>
+
         </div>
 
         <!-- Left and right controls -->

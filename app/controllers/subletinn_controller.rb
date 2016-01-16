@@ -5,7 +5,14 @@ layout 'subletinn'
 #  @welcome =
 #end
 
-def main
-
+def index
 end
+
+def francis
+  redirect_to :controller => 'francis_controller', :action => 'show'
+end
+
+def houses
+end
+
 end
