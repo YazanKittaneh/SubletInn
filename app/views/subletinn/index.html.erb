@@ -13,7 +13,10 @@
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><%= link_to "francis", francis_path(@subletinn) %></li>
+              <li><%= link_to francis_path(@subletinn) do%>
+                    <img id = "francis" src = "https://s3.amazonaws.com/subletinn/Icons/SubletInn/Francis-self-white.png">
+                  <% end %>
+              </li>
               <!--
               <li> <a href="https://www.subletinn.com/francis"><img id = "francis" src = "https://s3.amazonaws.com/subletinn/Icons/SubletInn/Francis-self-white.png"></a></li>
               <li><a href="#contact">About</a></li>
