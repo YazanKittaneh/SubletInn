@@ -1,5 +1,6 @@
 <%= stylesheet_link_tag "francis" %>
 <%= stylesheet_link_tag "emails" %>
+<%= javascript_include_tag('application') %>
 
 <% if flash[:success] or flash[:notice] or flash[:error]%>
   <div class="container notification">
@@ -87,15 +88,16 @@
           <img class = "edgar" src= "https://s3.amazonaws.com/subletinn/Photos/edgar.png">
         </div>
       </div>
-      <div class = "col-md-3 col-md-offset-2">
-        <center> <h2> Here's Edgar. </h2>
+      <div class = "col-md-3 col-md-offset-1">
+        <center>
+        <h2> Here's Edgar. </h2>
         <h4 style = "line-height: 110%"> He's owns this house and manages the rooms and keeps everything running.<br> Edgar is a home repair enthusiast, salsa dancer, and professional party planner. <br> Feel free to contact him about Francis! </h4>
 
           <p id = "contact"> phone </p>
           <p id = "infocontact"> (312)-714-0294</p>
 
           <p id = "contact"> email </p>
-          <p id = "infocontact"> chicago@subletinn.com</p>
+          <p id = "infocontact"> 2edgarenriquez@gmail.com</p>
 
           <p id = "contact"> location </p>
           <p id = "infocontact">  2748 W Francis Pl <br/> Chicago, IL <br/> 60647</p>
@@ -434,7 +436,7 @@
           </div>
       <div class="row">
         <div class = "col-xs-offset-3 col-xs-6 col-xs-offset-3 col-sm-2 col-sm-offset-2">
-          <div class = "well well-lg">
+          <div class = "well well-lg"><center>
             <img id = "alien" src = "https://s3.amazonaws.com/subletinn/Icons/rates+page/alien.png">
             <h2 style = "line-height: 150%;"> $950 </h2><h4> / month </h4>
             <h4> + <break/> deposit </h4></center>
