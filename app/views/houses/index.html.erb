@@ -1,0 +1,29 @@
+<div class = "jumbotron white-header LocalPageOne" style = "background-color: white">
+  <div id = "cover" class = "container special">
+    <center> <img style = "min-width: 5%; height: auto;"src = "https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear+airplane.png"> </center>
+    <div class = "col-xs-11 col-xs-offset-1">
+        <center> <h4 id = "placesheader"> There are so many places around Francis to check out that it’ll make your head spin. <br/>Here are a few of our favorites.</h4></center>
+
+        <ul class="photo-grid">
+          <%= @house.each do |h| %>
+            <li>
+              <P>
+               FUCK YOUUU
+              </P>
+                <a href=<%= h.name %> >
+                     <figure>
+                       <img src= "<%= h.picture %>" alt="<%=h.location%>">
+                       <figcaption><p>Wormhole Coffee</p></figcaption>
+                     </figure>
+               </a>
+           </li>
+         <% end%>
+        </ul>
+</center>
+    </div>
+  </div>
+</div>
+
+
+
+<%= link_to 'francis', '/francis'%>
