@@ -10,6 +10,7 @@ overflow-x: hidden;
 position: fixed;
 }
 
+/** handles the full screen jumbotron **/
 .special,.special .jumbotron {
   height:100%;
   width: 100%;
@@ -19,8 +20,6 @@ position: fixed;
   margin-bottom: 0px;
 }
 
-
-/*** SETUP ***/
 
 
 /*** Page Styles ***/
