@@ -1,12 +1,12 @@
 class HousesController < ApplicationController
 
 def new
-  @house = House.new
+  @houses = House.new
 end
 
 
 def index
-  @house = House.all
+  @houses = House.all
 end
 
 def show
@@ -19,7 +19,7 @@ def payment
 end
 
 def create
-  @house= Houses.new(params[:id])
+  @houses= House.new(params[:id])
 end
 
 end

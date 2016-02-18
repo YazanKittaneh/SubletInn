@@ -7,9 +7,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-  Houses.create(name: 'Dougie', picture: 'assets/images/skyline.jpg', location: "London")
-  Houses.create(name: 'The Palace', picture: 'assets/images/city-streets.jpg', location: "Dubai")r
-  Houses.create(name: 'Dougie', picture: 'assets/images/city-cars-traffic-lights.jpeg', location: "Mexico City")
-  Houses.create(name: 'Dougie', picture: 'assets/images/skyline.jpg', location: "Boston")
-  Houses.create(name: 'Francis', picture: 'assets/images/chicago-l-black-and-white-benjamin-yeager.jpg', location: "Chicago")
-end
+  House.create(name: 'Dougie', picture: 'https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear+airplane.png', location: "London")
+  House.create(name: 'The Palace', picture: 'https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear+airplane.png', location: "Dubai")
+  House.create(name: 'Dougie', picture: 'https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear+airplane.png', location: "Mexico City")
+  House.create(name: 'Dougie', picture: 'https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear+airplane.png', location: "Boston")
+  House.create(name: 'Francis', picture: 'https://s3.amazonaws.com/subletinn/Icons/navbar+icons+separated/clear+airplane.png', location: "Chicago")

@@ -5,14 +5,11 @@
         <center> <h4 id = "placesheader"> There are so many places around Francis to check out that it’ll make your head spin. <br/>Here are a few of our favorites.</h4></center>
 
         <ul class="photo-grid">
-          <%= @house.each do |h| %>
+          <%= @houses.each do |h| %>
             <li>
-              <P>
-               FUCK YOUUU
-              </P>
                 <a href=<%= h.name %> >
                      <figure>
-                       <img src= "<%= h.picture %>" alt="<%=h.location%>">
+                       <%= image_tag h.picture %>
                        <figcaption><p>Wormhole Coffee</p></figcaption>
                      </figure>
                </a>
@@ -23,7 +20,3 @@
     </div>
   </div>
 </div>
-
-
-
-<%= link_to 'francis', '/francis'%>
