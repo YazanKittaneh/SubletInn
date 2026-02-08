@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
         hostname: "s3.amazonaws.com",
         pathname: "/subletinn/**",
       },
+      {
+        protocol: "https",
+        hostname: "images.squarespace-cdn.com",
+        pathname: "/content/**",
+      },
     ],
   },
 };
