@@ -24,7 +24,11 @@ const images = {
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.8 },
+  },
 };
 
 const stagger = {
@@ -126,9 +130,9 @@ export default function CinematicDesign() {
           transition={{ delay: 1.5, duration: 0.8 }}
           className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10"
         >
-          <motion.div animate={{ y: [0, 8, 0] }} transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}>
-            <ArrowDown size={20} className="text-dark-300" />
-          </motion.div>
+          <motion.div animate={{ y: [0, 8, 0] }} transition={{ duration: 2, repeat: Infinity }}>
+          <ArrowDown size={20} className="text-dark-300" />
+        </motion.div>
         </motion.div>
       </section>
 

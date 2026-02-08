@@ -23,7 +23,7 @@ const images = {
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut" } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.7 } },
 };
 
 const stagger = {
@@ -34,7 +34,7 @@ function FloatingDot({ className, delay = 0 }: { className: string; delay?: numb
   return (
     <motion.div
       animate={{ y: [0, -15, 0] }}
-      transition={{ duration: 4, delay, repeat: Infinity, ease: "easeInOut" }}
+      transition={{ duration: 4, delay, repeat: Infinity }}
       className={`absolute rounded-full ${className}`}
     />
   );
@@ -127,7 +127,7 @@ export default function OrganicDesign() {
                     strokeLinecap="round"
                     initial={{ pathLength: 0 }}
                     animate={{ pathLength: 1 }}
-                    transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
+                    transition={{ delay: 1, duration: 1 }}
                   />
                 </svg>
               </span>
@@ -165,7 +165,7 @@ export default function OrganicDesign() {
               <motion.div
                 key={i}
                 animate={{ y: [0, i % 2 === 0 ? -8 : 8, 0] }}
-                transition={{ duration: 5, delay: i * 0.5, repeat: Infinity, ease: "easeInOut" }}
+                transition={{ duration: 5, delay: i * 0.5, repeat: Infinity }}
                 className="relative w-48 h-48 md:w-64 md:h-64 overflow-hidden shadow-xl"
                 style={{
                   borderRadius: i === 0 ? "60% 40% 50% 50% / 40% 60% 40% 60%" : i === 1 ? "50% 50% 40% 60% / 60% 40% 60% 40%" : "40% 60% 50% 50% / 50% 50% 60% 40%",
@@ -369,7 +369,7 @@ export default function OrganicDesign() {
                 <motion.div
                   key={i}
                   animate={{ y: [0, i % 2 === 0 ? -6 : 6, 0] }}
-                  transition={{ duration: 4, delay: i * 0.3, repeat: Infinity, ease: "easeInOut" }}
+                  transition={{ duration: 4, delay: i * 0.3, repeat: Infinity }}
                   className="relative w-24 h-24 md:w-36 md:h-36 rounded-full overflow-hidden border-4 border-white shadow-lg"
                   style={{ zIndex: 5 - i }}
                 >
