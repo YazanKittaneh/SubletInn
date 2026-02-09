@@ -64,52 +64,46 @@ export const houses: House[] = [
       "International community from 19+ countries",
     ],
     images: {
-      hero: "https://s3.amazonaws.com/subletinn/Images/Francis/Background/concert.jpg",
+      hero: "/images/subletinn/homepage/hero-dinner.jpg",
       gallery: [
-        "https://s3.amazonaws.com/subletinn/Images/Francis/Carousel/All1.jpg",
-        "https://s3.amazonaws.com/subletinn/Images/Francis/Carousel/Bedroom1.3.jpg",
-        "https://s3.amazonaws.com/subletinn/Images/Francis/Carousel/Room_6.jpg",
-        "https://s3.amazonaws.com/subletinn/Images/Francis/Carousel/Dining1.jpg",
-        "https://s3.amazonaws.com/subletinn/Images/Francis/Carousel/Living3.jpg",
-        "https://s3.amazonaws.com/subletinn/Images/Francis/Carousel/Room_11.jpg",
+        "/images/subletinn/homepage/rooms-overview.jpg",
+        "/images/subletinn/homepage/bedroom.jpg",
+        "/images/subletinn/francis/room1.jpg",
+        "/images/subletinn/francis/living1.jpg",
+        "/images/subletinn/francis/living2.jpg",
+        "/images/subletinn/francis/room2.jpg",
       ],
     },
     nearbySpots: [
       {
         name: "Wormhole Coffee",
         category: "Coffee",
-        image:
-          "https://s3.amazonaws.com/subletinn/Images/Francis/PlaceGrid/coffee.jpg",
+        image: "/images/subletinn/neighborhood/coffee.jpg",
       },
       {
         name: "Subterranean",
         category: "Live Music",
-        image:
-          "https://s3.amazonaws.com/subletinn/Images/Francis/PlaceGrid/subterranean.jpg",
+        image: "/images/subletinn/neighborhood/farmers-market.jpg",
       },
       {
         name: "Furious Spoon",
         category: "Ramen",
-        image:
-          "https://s3.amazonaws.com/subletinn/Images/Francis/PlaceGrid/ramen.jpg",
+        image: "/images/subletinn/neighborhood/ramen.jpg",
       },
       {
         name: "Bang Bang Pie",
         category: "Bakery",
-        image:
-          "https://s3.amazonaws.com/subletinn/Images/Francis/PlaceGrid/bang.jpg",
+        image: "/images/subletinn/neighborhood/coffee.jpg",
       },
       {
         name: "Umami Burger",
         category: "Burgers",
-        image:
-          "https://s3.amazonaws.com/subletinn/Images/Francis/PlaceGrid/umami.jpg",
+        image: "/images/subletinn/neighborhood/ramen.jpg",
       },
       {
         name: "Cozy Corner",
         category: "Brunch",
-        image:
-          "https://s3.amazonaws.com/subletinn/Images/Francis/PlaceGrid/pancae.jpg",
+        image: "/images/subletinn/neighborhood/farmers-market.jpg",
       },
     ],
     faqs: [

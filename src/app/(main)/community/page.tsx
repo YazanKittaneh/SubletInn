@@ -30,7 +30,7 @@ export default function CommunityPage() {
       <section className="relative pt-32 pb-20 bg-warm-900 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="https://s3.amazonaws.com/subletinn/Images/Francis/Carousel/Living3.jpg"
+            src="/images/subletinn/francis/living2.jpg"
             alt="Community"
             fill
             className="object-cover"

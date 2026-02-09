@@ -31,7 +31,7 @@ export default function HomePage() {
         {/* Background image */}
         <div className="absolute inset-0">
           <Image
-            src="https://s3.amazonaws.com/subletinn/Images/Francis/Background/concert.jpg"
+            src="/images/subletinn/homepage/hero-dinner.jpg"
             alt="SubletInn community"
             fill
             className="object-cover"

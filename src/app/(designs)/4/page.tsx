@@ -6,19 +6,19 @@ import { motion } from "framer-motion";
 import { ArrowRight, Heart, Leaf, Sun, Sparkles, Check } from "lucide-react";
 
 const images = {
-  hero: "https://s3.amazonaws.com/subletinn/Images/Francis/Background/concert.jpg",
-  rooms: "https://s3.amazonaws.com/subletinn/Images/Francis/Carousel/All1.jpg",
-  bedroom: "https://s3.amazonaws.com/subletinn/Images/Francis/Carousel/Bedroom1.3.jpg",
-  room6: "https://s3.amazonaws.com/subletinn/Images/Francis/Carousel/Room_6.jpg",
-  dining: "https://s3.amazonaws.com/subletinn/Images/Francis/Carousel/Dining1.jpg",
-  living: "https://s3.amazonaws.com/subletinn/Images/Francis/Carousel/Living3.jpg",
-  room11: "https://s3.amazonaws.com/subletinn/Images/Francis/Carousel/Room_11.jpg",
-  community1: "https://images.squarespace-cdn.com/content/v1/56ed557d07eaa0e20bf74ab4/3c6ae476-46c4-448d-b8ab-97724dd20075/467399737_898391759063954_8001495981327664016_n.jpg",
-  community2: "https://images.squarespace-cdn.com/content/v1/56ed557d07eaa0e20bf74ab4/1732256843109-WK9MUV7CJXWY60H9V53O/PHOTO-2022-05-27-22-05-53.jpg",
-  community3: "https://images.squarespace-cdn.com/content/v1/56ed557d07eaa0e20bf74ab4/1732256842853-NOJYAK8V9LZTY4I72Q5D/120203259_622375185128918_4840753130849617993_n.jpeg",
-  community4: "https://images.squarespace-cdn.com/content/v1/56ed557d07eaa0e20bf74ab4/1732256844189-SGZX50EFD1Q6IZUKRE9P/7.png",
-  community5: "https://images.squarespace-cdn.com/content/v1/56ed557d07eaa0e20bf74ab4/1732256843879-NZS55Z4PI32M8TTWBT7I/PHOTO-2022-05-31-14-10-43.jpg",
-  exterior: "https://images.squarespace-cdn.com/content/v1/56ed557d07eaa0e20bf74ab4/1546589476702-29MNMFU2P31NC6WHVAIE/subletinn-chicago-logan-square-short-term-rental.jpg",
+  hero: "/images/subletinn/homepage/hero-dinner.jpg",
+  rooms: "/images/subletinn/homepage/rooms-overview.jpg",
+  bedroom: "/images/subletinn/homepage/bedroom.jpg",
+  room6: "/images/subletinn/francis/room1.jpg",
+  dining: "/images/subletinn/francis/living1.jpg",
+  living: "/images/subletinn/francis/living2.jpg",
+  room11: "/images/subletinn/francis/room2.jpg",
+  community1: "/images/subletinn/community/photo1.jpg",
+  community2: "/images/subletinn/community/photo2.jpeg",
+  community3: "/images/subletinn/community/photo3.png",
+  community4: "/images/subletinn/community/photo4.jpg",
+  community5: "/images/subletinn/community/photo5.png",
+  exterior: "/images/subletinn/homepage/exterior.jpg",
 };
 
 const fadeUp = {
