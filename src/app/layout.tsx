@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import SiteSelector from "@/components/SiteSelector";
 
 export const metadata: Metadata = {
   title: "SubletInn | Coliving for Young Professionals",
@@ -22,6 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         {children}
+        <SiteSelector />
       </body>
     </html>
   );
